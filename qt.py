@@ -55,15 +55,16 @@ class MainWindow(QWidget):
         self.predict_button = QPushButton("Predict")
         self.clear_button = QPushButton("Clear")
         self.device_label = QLabel("Device: ")
-        self.device_label.setStyleSheet("font-size: 20px;")
         self.result_label = QLabel("")
-        self.result_label.setStyleSheet("font-size: 20px;")
-        self.prediction_time_label = QLabel("识别时间: 0ms")  # 添加显示识别时间的label
-        self.prediction_time_label.setStyleSheet("font-size: 20px;")
-        self.correct_predictions = 0  # 正确识别的次数
-        self.total_predictions = 0  # 总识别次数
-        self.accuracy_label = QLabel("正确率: N/A")  # 添加显示正确率的label
-        self.accuracy_label.setStyleSheet("font-size: 20px;")
+        self.prediction_time_label = QLabel("识别时间: 0ms")  
+        self.correct_predictions = 0  
+        self.total_predictions = 0  
+        self.incorrect_predictions = 0
+        self.total_prediction_time = 0.0
+        self.accuracy_label = QLabel("正确率: N/A")  
+        self.total_predictions_label = QLabel("总识别次数: 0")
+        self.incorrect_predictions_label = QLabel("错误识别次数: 0")
+        self.average_prediction_time_label = QLabel("平均识别时间: 0.0秒")
 
         self.predict_button.clicked.connect(self.predict)
         self.clear_button.clicked.connect(self.drawing_widget.clearImage)
@@ -74,20 +75,24 @@ class MainWindow(QWidget):
         layout.addWidget(self.clear_button)
         layout.addWidget(self.device_label)
         layout.addWidget(self.result_label)
-        layout.addWidget(self.prediction_time_label)  # 将新的label添加到布局中
-        layout.addWidget(self.accuracy_label)  # 将正确率的label添加到布局中
+        layout.addWidget(self.prediction_time_label) 
+        layout.addWidget(self.average_prediction_time_label)
+        layout.addWidget(self.incorrect_predictions_label)
+        layout.addWidget(self.total_predictions_label)
+        layout.addWidget(self.accuracy_label) 
 
         self.setLayout(layout)
 
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.device_label.setText(f"Device: {self.device}")
-        self.model = torch.load("model_06月26日23:12.pth")
+        self.model = torch.load("model.pth")
         self.model.to(self.device)
 
         self.model.eval()
 
     def predict(self):
-        start_time = time.time()  # 获取预测开始时间
+        self.total_predictions += 1
+        self.total_predictions_label.setText(f"总识别次数: {self.total_predictions}")
         qimage = self.drawing_widget.getImage()
         image = qimage.convertToFormat(QImage.Format_Grayscale8)
         ptr = image.bits()
@@ -103,28 +108,29 @@ class MainWindow(QWidget):
 
         with torch.no_grad():
 
+            start_time = time.time()  
             tensor = tensor.to(self.device)
             output = self.model(tensor)
+            end_time = time.time()  
 
-            # 应用Softmax函数将输出转换为概率
             probabilities = softmax(output, dim=1)
 
-            # 获取Top 5的预测结果及其索引
             topk_probs, topk_inds = probabilities.topk(5, dim=1)
-            
-            topk_probs = topk_probs.squeeze().tolist()  # 将tensor转换为列表
+
+            topk_probs = topk_probs.squeeze().tolist()  
             topk_inds = topk_inds.squeeze().tolist()
 
-            # 构建显示的字符串
             topk_results_str = "\n".join([f"{idx}: {prob*100:.2f}%" for idx, prob in zip(topk_inds, topk_probs)])
             self.result_label.setText(f"Top 5 识别结果:\n{topk_results_str}")
 
-            # 注意：这里pred变量需要更新为使用概率最高的预测结果
-            pred = topk_inds[0]  # 概率最高的预测结果作为最终预测
+            pred = topk_inds[0] 
 
-            end_time = time.time()  # 获取预测结束时间
-            prediction_time = (end_time - start_time) * 1000  # 计算预测时间并转换为毫秒
-            self.prediction_time_label.setText(f"识别时间: {prediction_time:.2f}ms")  # 更新显示的识别时间
+            prediction_time = (end_time - start_time) * 1000 
+            self.prediction_time_label.setText(f"识别时间: {prediction_time:.2f}ms") 
+
+            self.total_prediction_time += prediction_time
+            average_prediction_time = self.total_prediction_time / self.total_predictions
+            self.average_prediction_time_label.setText(f"平均识别时间: {average_prediction_time:.2f}ms")
         # 弹窗询问是否识别正确
         reply = QMessageBox.question(
             self,
@@ -134,11 +140,12 @@ class MainWindow(QWidget):
             QMessageBox.No,
         )
 
-        self.total_predictions += 1  # 更新总识别次数
         if reply == QMessageBox.Yes:
-            self.correct_predictions += 1  # 如果识别正确，更新正确识别次数
+            self.correct_predictions += 1 
+        else:
+            self.incorrect_predictions += 1
+            self.incorrect_predictions_label.setText(f"错误识别次数: {self.incorrect_predictions}")
 
-        # 计算并更新正确率
         accuracy = (self.correct_predictions / self.total_predictions) * 100
         self.accuracy_label.setText(f"正确率: {accuracy:.2f}%")
 
