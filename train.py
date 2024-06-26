@@ -8,8 +8,8 @@ from ResNet18 import ResNet
 from data import train_dataloader, test_dataloader, train_data_size, test_data_size
 
 
-lr = 0.001
-epoch = 10
+lr = 0.01
+epoch = 30
 
 
 device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
@@ -28,8 +28,9 @@ if __name__ == "__main__":
     optimizer = torch.optim.SGD(
         model.parameters(), lr=lr, momentum=0.9, weight_decay=0.0005
     )
-    scheduler = lr_scheduler.MultiStepLR(
-        optimizer, milestones=[10, 20, 30, 40, 50, 60, 70, 80, 90], gamma=0.8
+
+    scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(
+        optimizer, mode="min", factor=0.5, patience=5, verbose=True
     )
 
     loss_func = nn.CrossEntropyLoss()
@@ -46,12 +47,14 @@ if __name__ == "__main__":
     train_loss_list = []
     test_loss_list = []
     accuracy_list = []
+    
+    loss_min = np.Inf
 
-    for i in range(epoch):
-        print("-------第 {} 轮训练开始-------".format(i + 1))
+    for num_epochs in range(epoch):
+        print("-------第 {} 轮训练开始-------".format(num_epochs + 1))
         # 训练步骤开始
         model.train()
-        for data in train_dataloader:
+        for batch_idx, (data) in enumerate(train_dataloader):
 
             imgs, targets = data
             imgs = imgs.to(device)
@@ -66,13 +69,16 @@ if __name__ == "__main__":
             optimizer.step()
 
             total_train_step = total_train_step + 1
-            if total_train_step % 100 == 0:
+            if not batch_idx % 100:
                 print(
-                    "训练次数: {}, Loss: {}".format(total_train_step, loss.item()),
-                    flush=True,
+                    f"Epoch: {num_epochs+1:03d}/{epoch:03d} | Batch {batch_idx:04d}/{len(train_dataloader):04d} | Loss: {loss:.4f}"
                 )
                 train_loss_list.append(loss.item())
-        scheduler.step()
+            # if total_train_step % 100 == 0:
+            #     print(
+            #         "训练次数: {}, Loss: {}".format(total_train_step, loss.item()),
+            #         flush=True,
+            #     )
         for param_group in optimizer.param_groups:
             print("当前学习率: ", param_group["lr"])
         # 测试步骤开始
@@ -89,7 +95,6 @@ if __name__ == "__main__":
                 total_test_loss = total_test_loss + loss.item()
                 accuracy = (outputs.argmax(1) == targets).sum()
                 total_accuracy = total_accuracy + accuracy
-
         print("整体测试集上的Loss: {}".format(total_test_loss))
         print(
             "整体测试集上的正确率: {}".format(total_accuracy / test_data_size),
@@ -98,9 +103,12 @@ if __name__ == "__main__":
         test_loss_list.append(total_test_loss)
         accuracy_list.append(total_accuracy.cpu().numpy() / test_data_size)
         total_test_step = total_test_step + 1
+        scheduler.step(total_test_loss)
 
-    torch.save(model, f"model_{now_time}.pth")
-    print("模型已保存")
+        if total_test_loss < loss_min:
+            loss_min = total_test_loss
+            torch.save(model, f"model_{now_time}.pth")
+            print("模型已保存")
 
     # 绘图
     x_train = np.linspace(1, len(train_loss_list), num=len(train_loss_list))
