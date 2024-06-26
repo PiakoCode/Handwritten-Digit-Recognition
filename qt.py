@@ -8,6 +8,7 @@ from ResNet18 import ResNet, Block
 import torchvision.transforms as transforms
 import time
 from PyQt5.QtWidgets import QMessageBox
+from torch.nn.functional import softmax
 
 class DrawingWidget(QWidget):
     def __init__(self, parent=None):
@@ -55,7 +56,7 @@ class MainWindow(QWidget):
         self.clear_button = QPushButton("Clear")
         self.device_label = QLabel("Device: ")
         self.device_label.setStyleSheet("font-size: 20px;")
-        self.result_label = QLabel("识别为: ")
+        self.result_label = QLabel("")
         self.result_label.setStyleSheet("font-size: 20px;")
         self.prediction_time_label = QLabel("识别时间: 0ms")  # 添加显示识别时间的label
         self.prediction_time_label.setStyleSheet("font-size: 20px;")
@@ -105,8 +106,21 @@ class MainWindow(QWidget):
             tensor = tensor.to(self.device)
             output = self.model(tensor)
 
-            pred = output.argmax(dim=1, keepdim=True).item()
-            self.result_label.setText(f"识别为: {pred}")
+            # 应用Softmax函数将输出转换为概率
+            probabilities = softmax(output, dim=1)
+
+            # 获取Top 5的预测结果及其索引
+            topk_probs, topk_inds = probabilities.topk(5, dim=1)
+            
+            topk_probs = topk_probs.squeeze().tolist()  # 将tensor转换为列表
+            topk_inds = topk_inds.squeeze().tolist()
+
+            # 构建显示的字符串
+            topk_results_str = "\n".join([f"{idx}: {prob*100:.2f}%" for idx, prob in zip(topk_inds, topk_probs)])
+            self.result_label.setText(f"Top 5 识别结果:\n{topk_results_str}")
+
+            # 注意：这里pred变量需要更新为使用概率最高的预测结果
+            pred = topk_inds[0]  # 概率最高的预测结果作为最终预测
 
             end_time = time.time()  # 获取预测结束时间
             prediction_time = (end_time - start_time) * 1000  # 计算预测时间并转换为毫秒
