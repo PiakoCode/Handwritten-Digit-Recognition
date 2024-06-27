@@ -85,7 +85,10 @@ class MainWindow(QWidget):
 
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.device_label.setText(f"Device: {self.device}")
-        self.model = torch.load("model.pth")
+        self.model = torch.load(
+            "model.pth"
+        )
+
         self.model.to(self.device)
 
         self.model.eval()
@@ -105,12 +108,16 @@ class MainWindow(QWidget):
 
         tensor = torch.from_numpy(arr)
         tensor =  transforms.Resize((28,28))(tensor)
-
+        
+        # * MUST NORMALIZE THE IMAGE AS THE TRAINING DATA WAS NORMALIZED
+        tensor = transforms.Normalize((0.1307,), (0.3081,))(tensor)
+        
         with torch.no_grad():
 
             start_time = time.time()  
             tensor = tensor.to(self.device)
             output = self.model(tensor)
+            print(output)
             end_time = time.time()  
 
             probabilities = softmax(output, dim=1)
