@@ -8,10 +8,6 @@ batch_size = 128
 transform_train = transforms.Compose(
     [
         transforms.RandomCrop(28, padding=4),  # 随机裁剪，填充4个像素
-        transforms.RandomHorizontalFlip(),  # 随机水平翻转
-        transforms.ColorJitter(
-            brightness=0.2, contrast=0.2, saturation=0.2, hue=0.1
-        ),  # 颜色抖动
         transforms.RandomRotation(15),  # 随机旋转
         transforms.ToTensor(),  # 转为Tensor
         transforms.Normalize((0.1307,), (0.3081,)),
@@ -21,10 +17,10 @@ transform_train = transforms.Compose(
 transform_test = transforms.Compose(
     [
         transforms.ToTensor(),  # 转为Tensor
+        transforms.Normalize((0.1307,), (0.3081,)),
     ]
 )
 
-# 数据集: MNIST
 train_data = torchvision.datasets.MNIST(
     root=dataset_path,
     train=True,
@@ -63,5 +59,3 @@ def check_dataset(loader, set_name):
 if __name__ == "__main__":
     check_dataset(train_dataloader, "Training")
     check_dataset(test_dataloader, "Testing")
-
-

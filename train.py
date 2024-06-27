@@ -8,14 +8,16 @@ from ResNet18 import ResNet
 from data import train_dataloader, test_dataloader, train_data_size, test_data_size
 
 
+torch.manual_seed(89)
+
 lr = 0.01
-epoch = 30
+epoch = 60
 
 
 device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
 print("now using device: ", device)
 
-now_time = datetime.datetime.now().strftime("%m月%d日%H:%M")
+start_time = datetime.datetime.now().strftime("%m月%d日%H:%M")
 
 image_size = (1, 28, 28)
 
@@ -47,7 +49,7 @@ if __name__ == "__main__":
     train_loss_list = []
     test_loss_list = []
     accuracy_list = []
-    
+
     loss_min = np.Inf
 
     for num_epochs in range(epoch):
@@ -107,7 +109,7 @@ if __name__ == "__main__":
 
         if total_test_loss < loss_min:
             loss_min = total_test_loss
-            torch.save(model, f"model_{now_time}.pth")
+            torch.save(model, f"model_{start_time}.pth")
             print("模型已保存")
 
     # 绘图
@@ -132,4 +134,4 @@ if __name__ == "__main__":
     plt.plot(x_test, accuracy_list, color="b", label="accuracy")
     plt.grid(True)
     plt.legend()
-    plt.savefig(f"result_{now_time}.png")
+    plt.savefig(f"result_{start_time}.png")

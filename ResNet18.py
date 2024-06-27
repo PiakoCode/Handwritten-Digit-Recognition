@@ -73,7 +73,6 @@ class ResNet(nn.Module):
             nn.Conv2d(1, 64, kernel_size=3, stride=1, padding=1),
             nn.BatchNorm2d(64),
             nn.ReLU(inplace=True),
-            nn.MaxPool2d(kernel_size=3, stride=1, padding=1),
             # *block_generate(64, 64, 2),
             Block(64, 64),
             Block(64, 64),
