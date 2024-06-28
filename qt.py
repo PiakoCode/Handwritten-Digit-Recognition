@@ -4,7 +4,7 @@ from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QPushButton, QLa
 from PyQt5.QtGui import QImage, QPainter, QPen, QPixmap
 from PyQt5.QtCore import Qt, QPoint
 import torch
-from ResNet18 import ResNet, Block
+from model import ResNet, Block
 import torchvision.transforms as transforms
 import time
 from PyQt5.QtWidgets import QMessageBox

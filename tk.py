@@ -2,7 +2,7 @@ import tkinter as tk
 from PIL import Image, ImageDraw, ImageOps
 import numpy as np
 import torch
-from ResNet18 import ResNet, Block
+from model import ResNet, Block
 
 device = device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
 
