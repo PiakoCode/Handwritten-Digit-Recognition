@@ -1,376 +1,875 @@
+python train.py
 now using device:  cuda
--------第 1 轮训练开始-------
-Epoch: 001/040 | Batch 0000/0469 | Loss: 2.3830
-Epoch: 001/040 | Batch 0100/0469 | Loss: 0.1032
-Epoch: 001/040 | Batch 0200/0469 | Loss: 0.1656
-Epoch: 001/040 | Batch 0300/0469 | Loss: 0.2258
-Epoch: 001/040 | Batch 0400/0469 | Loss: 0.1365
-当前学习率:  0.01
-整体测试集上的Loss: 6.462724664248526
-整体测试集上的正确率: 0.9723999500274658
-模型已保存
--------第 2 轮训练开始-------
-Epoch: 002/040 | Batch 0000/0469 | Loss: 0.0484
-Epoch: 002/040 | Batch 0100/0469 | Loss: 0.0523
-Epoch: 002/040 | Batch 0200/0469 | Loss: 0.1248
-Epoch: 002/040 | Batch 0300/0469 | Loss: 0.1057
-Epoch: 002/040 | Batch 0400/0469 | Loss: 0.0628
-当前学习率:  0.01
-整体测试集上的Loss: 2.6023749269224936
-整体测试集上的正确率: 0.9898999929428101
-模型已保存
--------第 3 轮训练开始-------
-Epoch: 003/040 | Batch 0000/0469 | Loss: 0.0717
-Epoch: 003/040 | Batch 0100/0469 | Loss: 0.0276
-Epoch: 003/040 | Batch 0200/0469 | Loss: 0.0954
-Epoch: 003/040 | Batch 0300/0469 | Loss: 0.0536
-Epoch: 003/040 | Batch 0400/0469 | Loss: 0.0623
-当前学习率:  0.01
-整体测试集上的Loss: 1.7449312333774287
-整体测试集上的正确率: 0.9927999973297119
-模型已保存
--------第 4 轮训练开始-------
-Epoch: 004/040 | Batch 0000/0469 | Loss: 0.0485
-Epoch: 004/040 | Batch 0100/0469 | Loss: 0.0228
-Epoch: 004/040 | Batch 0200/0469 | Loss: 0.0514
-Epoch: 004/040 | Batch 0300/0469 | Loss: 0.0885
-Epoch: 004/040 | Batch 0400/0469 | Loss: 0.0339
-当前学习率:  0.01
-整体测试集上的Loss: 1.211034838386695
-整体测试集上的正确率: 0.9953999519348145
-模型已保存
--------第 5 轮训练开始-------
-Epoch: 005/040 | Batch 0000/0469 | Loss: 0.0279
-Epoch: 005/040 | Batch 0100/0469 | Loss: 0.0398
-Epoch: 005/040 | Batch 0200/0469 | Loss: 0.0146
-Epoch: 005/040 | Batch 0300/0469 | Loss: 0.0809
-Epoch: 005/040 | Batch 0400/0469 | Loss: 0.0110
-当前学习率:  0.01
-整体测试集上的Loss: 1.7332661045802524
-整体测试集上的正确率: 0.9923999905586243
--------第 6 轮训练开始-------
-Epoch: 006/040 | Batch 0000/0469 | Loss: 0.0105
-Epoch: 006/040 | Batch 0100/0469 | Loss: 0.0374
-Epoch: 006/040 | Batch 0200/0469 | Loss: 0.0361
-Epoch: 006/040 | Batch 0300/0469 | Loss: 0.0576
-Epoch: 006/040 | Batch 0400/0469 | Loss: 0.0795
-当前学习率:  0.01
-整体测试集上的Loss: 1.3211543928191531
-整体测试集上的正确率: 0.9948999881744385
--------第 7 轮训练开始-------
-Epoch: 007/040 | Batch 0000/0469 | Loss: 0.0319
-Epoch: 007/040 | Batch 0100/0469 | Loss: 0.0076
-Epoch: 007/040 | Batch 0200/0469 | Loss: 0.0659
-Epoch: 007/040 | Batch 0300/0469 | Loss: 0.0472
-Epoch: 007/040 | Batch 0400/0469 | Loss: 0.0412
-当前学习率:  0.01
-整体测试集上的Loss: 1.4192247435166792
-整体测试集上的正确率: 0.9943999648094177
--------第 8 轮训练开始-------
-Epoch: 008/040 | Batch 0000/0469 | Loss: 0.0040
-Epoch: 008/040 | Batch 0100/0469 | Loss: 0.0285
-Epoch: 008/040 | Batch 0200/0469 | Loss: 0.0514
-Epoch: 008/040 | Batch 0300/0469 | Loss: 0.0379
-Epoch: 008/040 | Batch 0400/0469 | Loss: 0.0358
-当前学习率:  0.01
-整体测试集上的Loss: 1.345669019381603
-整体测试集上的正确率: 0.9942999482154846
--------第 9 轮训练开始-------
-Epoch: 009/040 | Batch 0000/0469 | Loss: 0.0078
-Epoch: 009/040 | Batch 0100/0469 | Loss: 0.0125
-Epoch: 009/040 | Batch 0200/0469 | Loss: 0.0548
-Epoch: 009/040 | Batch 0300/0469 | Loss: 0.0282
-Epoch: 009/040 | Batch 0400/0469 | Loss: 0.0268
-当前学习率:  0.01
-整体测试集上的Loss: 1.390490747988224
-整体测试集上的正确率: 0.9946999549865723
--------第 10 轮训练开始-------
-Epoch: 010/040 | Batch 0000/0469 | Loss: 0.0412
-Epoch: 010/040 | Batch 0100/0469 | Loss: 0.0229
-Epoch: 010/040 | Batch 0200/0469 | Loss: 0.0531
-Epoch: 010/040 | Batch 0300/0469 | Loss: 0.0575
-Epoch: 010/040 | Batch 0400/0469 | Loss: 0.0325
-当前学习率:  0.01
-整体测试集上的Loss: 1.149901184173359
-整体测试集上的正确率: 0.9950999617576599
-模型已保存
--------第 11 轮训练开始-------
-Epoch: 011/040 | Batch 0000/0469 | Loss: 0.0169
-Epoch: 011/040 | Batch 0100/0469 | Loss: 0.0162
-Epoch: 011/040 | Batch 0200/0469 | Loss: 0.0774
-Epoch: 011/040 | Batch 0300/0469 | Loss: 0.0375
-Epoch: 011/040 | Batch 0400/0469 | Loss: 0.0173
-当前学习率:  0.01
-整体测试集上的Loss: 1.8900136715456028
-整体测试集上的正确率: 0.993399977684021
--------第 12 轮训练开始-------
-Epoch: 012/040 | Batch 0000/0469 | Loss: 0.0114
-Epoch: 012/040 | Batch 0100/0469 | Loss: 0.0099
-Epoch: 012/040 | Batch 0200/0469 | Loss: 0.0511
-Epoch: 012/040 | Batch 0300/0469 | Loss: 0.0219
-Epoch: 012/040 | Batch 0400/0469 | Loss: 0.0394
-当前学习率:  0.01
-整体测试集上的Loss: 1.310512080322951
-整体测试集上的正确率: 0.9943999648094177
--------第 13 轮训练开始-------
-Epoch: 013/040 | Batch 0000/0469 | Loss: 0.0040
-Epoch: 013/040 | Batch 0100/0469 | Loss: 0.0116
-Epoch: 013/040 | Batch 0200/0469 | Loss: 0.0476
-Epoch: 013/040 | Batch 0300/0469 | Loss: 0.0379
-Epoch: 013/040 | Batch 0400/0469 | Loss: 0.0797
-当前学习率:  0.01
-整体测试集上的Loss: 1.6872219986689743
-整体测试集上的正确率: 0.9937999844551086
--------第 14 轮训练开始-------
-Epoch: 014/040 | Batch 0000/0469 | Loss: 0.0150
-Epoch: 014/040 | Batch 0100/0469 | Loss: 0.0172
-Epoch: 014/040 | Batch 0200/0469 | Loss: 0.0099
-Epoch: 014/040 | Batch 0300/0469 | Loss: 0.0284
-Epoch: 014/040 | Batch 0400/0469 | Loss: 0.0872
-当前学习率:  0.01
-整体测试集上的Loss: 1.338122503759223
-整体测试集上的正确率: 0.9946999549865723
--------第 15 轮训练开始-------
-Epoch: 015/040 | Batch 0000/0469 | Loss: 0.0190
-Epoch: 015/040 | Batch 0100/0469 | Loss: 0.0583
-Epoch: 015/040 | Batch 0200/0469 | Loss: 0.0254
-Epoch: 015/040 | Batch 0300/0469 | Loss: 0.0436
-Epoch: 015/040 | Batch 0400/0469 | Loss: 0.0279
-当前学习率:  0.01
-整体测试集上的Loss: 1.280961189950176
-整体测试集上的正确率: 0.9949999451637268
--------第 16 轮训练开始-------
-Epoch: 016/040 | Batch 0000/0469 | Loss: 0.0074
-Epoch: 016/040 | Batch 0100/0469 | Loss: 0.0294
-Epoch: 016/040 | Batch 0200/0469 | Loss: 0.0436
-Epoch: 016/040 | Batch 0300/0469 | Loss: 0.0427
-Epoch: 016/040 | Batch 0400/0469 | Loss: 0.0303
-当前学习率:  0.01
-整体测试集上的Loss: 1.6033690214244416
-整体测试集上的正确率: 0.9928999543190002
-Epoch 00016: reducing learning rate of group 0 to 5.0000e-03.
--------第 17 轮训练开始-------
-Epoch: 017/040 | Batch 0000/0469 | Loss: 0.0355
-Epoch: 017/040 | Batch 0100/0469 | Loss: 0.0056
-Epoch: 017/040 | Batch 0200/0469 | Loss: 0.0114
-Epoch: 017/040 | Batch 0300/0469 | Loss: 0.0501
-Epoch: 017/040 | Batch 0400/0469 | Loss: 0.0583
-当前学习率:  0.005
-整体测试集上的Loss: 0.8896809826728713
-整体测试集上的正确率: 0.9962999820709229
-模型已保存
--------第 18 轮训练开始-------
-Epoch: 018/040 | Batch 0000/0469 | Loss: 0.0053
-Epoch: 018/040 | Batch 0100/0469 | Loss: 0.0420
-Epoch: 018/040 | Batch 0200/0469 | Loss: 0.0102
-Epoch: 018/040 | Batch 0300/0469 | Loss: 0.0431
-Epoch: 018/040 | Batch 0400/0469 | Loss: 0.0511
-当前学习率:  0.005
-整体测试集上的Loss: 0.7469185847439803
-整体测试集上的正确率: 0.9970999956130981
-模型已保存
--------第 19 轮训练开始-------
-Epoch: 019/040 | Batch 0000/0469 | Loss: 0.0187
-Epoch: 019/040 | Batch 0100/0469 | Loss: 0.0096
-Epoch: 019/040 | Batch 0200/0469 | Loss: 0.0152
-Epoch: 019/040 | Batch 0300/0469 | Loss: 0.0174
-Epoch: 019/040 | Batch 0400/0469 | Loss: 0.0202
-当前学习率:  0.005
-整体测试集上的Loss: 0.8464317488123925
-整体测试集上的正确率: 0.996999979019165
--------第 20 轮训练开始-------
-Epoch: 020/040 | Batch 0000/0469 | Loss: 0.0053
-Epoch: 020/040 | Batch 0100/0469 | Loss: 0.0120
-Epoch: 020/040 | Batch 0200/0469 | Loss: 0.0320
-Epoch: 020/040 | Batch 0300/0469 | Loss: 0.0296
-Epoch: 020/040 | Batch 0400/0469 | Loss: 0.0599
-当前学习率:  0.005
-整体测试集上的Loss: 0.9403379547657096
-整体测试集上的正确率: 0.9960999488830566
--------第 21 轮训练开始-------
-Epoch: 021/040 | Batch 0000/0469 | Loss: 0.0059
-Epoch: 021/040 | Batch 0100/0469 | Loss: 0.0467
-Epoch: 021/040 | Batch 0200/0469 | Loss: 0.0281
-Epoch: 021/040 | Batch 0300/0469 | Loss: 0.0243
-Epoch: 021/040 | Batch 0400/0469 | Loss: 0.0454
-当前学习率:  0.005
-整体测试集上的Loss: 1.0662171866460994
-整体测试集上的正确率: 0.9960999488830566
--------第 22 轮训练开始-------
-Epoch: 022/040 | Batch 0000/0469 | Loss: 0.0042
-Epoch: 022/040 | Batch 0100/0469 | Loss: 0.0115
-Epoch: 022/040 | Batch 0200/0469 | Loss: 0.0430
-Epoch: 022/040 | Batch 0300/0469 | Loss: 0.0110
-Epoch: 022/040 | Batch 0400/0469 | Loss: 0.0343
-当前学习率:  0.005
-整体测试集上的Loss: 1.0830619467124052
-整体测试集上的正确率: 0.9959999918937683
--------第 23 轮训练开始-------
-Epoch: 023/040 | Batch 0000/0469 | Loss: 0.0206
-Epoch: 023/040 | Batch 0100/0469 | Loss: 0.0080
-Epoch: 023/040 | Batch 0200/0469 | Loss: 0.0115
-Epoch: 023/040 | Batch 0300/0469 | Loss: 0.0215
-Epoch: 023/040 | Batch 0400/0469 | Loss: 0.0391
-当前学习率:  0.005
-整体测试集上的Loss: 0.9674162798219186
-整体测试集上的正确率: 0.9960999488830566
--------第 24 轮训练开始-------
-Epoch: 024/040 | Batch 0000/0469 | Loss: 0.0068
-Epoch: 024/040 | Batch 0100/0469 | Loss: 0.0228
-Epoch: 024/040 | Batch 0200/0469 | Loss: 0.0182
-Epoch: 024/040 | Batch 0300/0469 | Loss: 0.0266
-Epoch: 024/040 | Batch 0400/0469 | Loss: 0.0527
-当前学习率:  0.005
-整体测试集上的Loss: 0.9596426749994862
-整体测试集上的正确率: 0.996399998664856
-Epoch 00024: reducing learning rate of group 0 to 2.5000e-03.
--------第 25 轮训练开始-------
-Epoch: 025/040 | Batch 0000/0469 | Loss: 0.0093
-Epoch: 025/040 | Batch 0100/0469 | Loss: 0.0063
-Epoch: 025/040 | Batch 0200/0469 | Loss: 0.0575
-Epoch: 025/040 | Batch 0300/0469 | Loss: 0.0291
-Epoch: 025/040 | Batch 0400/0469 | Loss: 0.0360
-当前学习率:  0.0025
-整体测试集上的Loss: 0.7750961835226917
-整体测试集上的正确率: 0.996999979019165
--------第 26 轮训练开始-------
-Epoch: 026/040 | Batch 0000/0469 | Loss: 0.0027
-Epoch: 026/040 | Batch 0100/0469 | Loss: 0.0282
-Epoch: 026/040 | Batch 0200/0469 | Loss: 0.0025
-Epoch: 026/040 | Batch 0300/0469 | Loss: 0.0341
-Epoch: 026/040 | Batch 0400/0469 | Loss: 0.0418
-当前学习率:  0.0025
-整体测试集上的Loss: 0.8169604908507608
-整体测试集上的正确率: 0.9968999624252319
--------第 27 轮训练开始-------
-Epoch: 027/040 | Batch 0000/0469 | Loss: 0.0056
-Epoch: 027/040 | Batch 0100/0469 | Loss: 0.0029
-Epoch: 027/040 | Batch 0200/0469 | Loss: 0.0179
-Epoch: 027/040 | Batch 0300/0469 | Loss: 0.0250
-Epoch: 027/040 | Batch 0400/0469 | Loss: 0.0759
-当前学习率:  0.0025
-整体测试集上的Loss: 0.8531156124881818
-整体测试集上的正确率: 0.996999979019165
--------第 28 轮训练开始-------
-Epoch: 028/040 | Batch 0000/0469 | Loss: 0.0021
-Epoch: 028/040 | Batch 0100/0469 | Loss: 0.0031
-Epoch: 028/040 | Batch 0200/0469 | Loss: 0.0058
-Epoch: 028/040 | Batch 0300/0469 | Loss: 0.0082
-Epoch: 028/040 | Batch 0400/0469 | Loss: 0.0121
-当前学习率:  0.0025
-整体测试集上的Loss: 0.7724702855302894
-整体测试集上的正确率: 0.996999979019165
--------第 29 轮训练开始-------
-Epoch: 029/040 | Batch 0000/0469 | Loss: 0.0026
-Epoch: 029/040 | Batch 0100/0469 | Loss: 0.0062
-Epoch: 029/040 | Batch 0200/0469 | Loss: 0.0148
-Epoch: 029/040 | Batch 0300/0469 | Loss: 0.0169
-Epoch: 029/040 | Batch 0400/0469 | Loss: 0.0742
-当前学习率:  0.0025
-整体测试集上的Loss: 0.8438862516886729
-整体测试集上的正确率: 0.9967999458312988
--------第 30 轮训练开始-------
-Epoch: 030/040 | Batch 0000/0469 | Loss: 0.0010
-Epoch: 030/040 | Batch 0100/0469 | Loss: 0.0045
-Epoch: 030/040 | Batch 0200/0469 | Loss: 0.0067
-Epoch: 030/040 | Batch 0300/0469 | Loss: 0.0173
-Epoch: 030/040 | Batch 0400/0469 | Loss: 0.0967
-当前学习率:  0.0025
-整体测试集上的Loss: 0.7494094841676997
-整体测试集上的正确率: 0.9970999956130981
-Epoch 00030: reducing learning rate of group 0 to 1.2500e-03.
--------第 31 轮训练开始-------
-Epoch: 031/040 | Batch 0000/0469 | Loss: 0.0028
-Epoch: 031/040 | Batch 0100/0469 | Loss: 0.0109
-Epoch: 031/040 | Batch 0200/0469 | Loss: 0.0019
-Epoch: 031/040 | Batch 0300/0469 | Loss: 0.0315
-Epoch: 031/040 | Batch 0400/0469 | Loss: 0.0228
-当前学习率:  0.00125
-整体测试集上的Loss: 0.7046849369653501
-整体测试集上的正确率: 0.9976999759674072
-模型已保存
--------第 32 轮训练开始-------
-Epoch: 032/040 | Batch 0000/0469 | Loss: 0.0058
-Epoch: 032/040 | Batch 0100/0469 | Loss: 0.0074
-Epoch: 032/040 | Batch 0200/0469 | Loss: 0.0499
-Epoch: 032/040 | Batch 0300/0469 | Loss: 0.0106
-Epoch: 032/040 | Batch 0400/0469 | Loss: 0.0676
-当前学习率:  0.00125
-整体测试集上的Loss: 0.7267298157894402
-整体测试集上的正确率: 0.9970999956130981
--------第 33 轮训练开始-------
-Epoch: 033/040 | Batch 0000/0469 | Loss: 0.0022
-Epoch: 033/040 | Batch 0100/0469 | Loss: 0.0206
-Epoch: 033/040 | Batch 0200/0469 | Loss: 0.0064
-Epoch: 033/040 | Batch 0300/0469 | Loss: 0.0138
-Epoch: 033/040 | Batch 0400/0469 | Loss: 0.0337
-当前学习率:  0.00125
-整体测试集上的Loss: 0.8071466983383289
-整体测试集上的正确率: 0.9972999691963196
--------第 34 轮训练开始-------
-Epoch: 034/040 | Batch 0000/0469 | Loss: 0.0014
-Epoch: 034/040 | Batch 0100/0469 | Loss: 0.0067
-Epoch: 034/040 | Batch 0200/0469 | Loss: 0.0114
-Epoch: 034/040 | Batch 0300/0469 | Loss: 0.0106
-Epoch: 034/040 | Batch 0400/0469 | Loss: 0.0307
-当前学习率:  0.00125
-整体测试集上的Loss: 0.8321940300229471
-整体测试集上的正确率: 0.996999979019165
--------第 35 轮训练开始-------
-Epoch: 035/040 | Batch 0000/0469 | Loss: 0.0074
-Epoch: 035/040 | Batch 0100/0469 | Loss: 0.0022
-Epoch: 035/040 | Batch 0200/0469 | Loss: 0.0046
-Epoch: 035/040 | Batch 0300/0469 | Loss: 0.0438
-Epoch: 035/040 | Batch 0400/0469 | Loss: 0.0256
-当前学习率:  0.00125
-整体测试集上的Loss: 0.7994351318484405
-整体测试集上的正确率: 0.9971999526023865
--------第 36 轮训练开始-------
-Epoch: 036/040 | Batch 0000/0469 | Loss: 0.0039
-Epoch: 036/040 | Batch 0100/0469 | Loss: 0.0187
-Epoch: 036/040 | Batch 0200/0469 | Loss: 0.0082
-Epoch: 036/040 | Batch 0300/0469 | Loss: 0.0058
-Epoch: 036/040 | Batch 0400/0469 | Loss: 0.0225
-当前学习率:  0.00125
-整体测试集上的Loss: 0.7441654443973675
-整体测试集上的正确率: 0.9965999722480774
--------第 37 轮训练开始-------
-Epoch: 037/040 | Batch 0000/0469 | Loss: 0.0044
-Epoch: 037/040 | Batch 0100/0469 | Loss: 0.0041
-Epoch: 037/040 | Batch 0200/0469 | Loss: 0.0074
-Epoch: 037/040 | Batch 0300/0469 | Loss: 0.0176
-Epoch: 037/040 | Batch 0400/0469 | Loss: 0.0376
-当前学习率:  0.00125
-整体测试集上的Loss: 0.7707278954185313
-整体测试集上的正确率: 0.9975000023841858
-Epoch 00037: reducing learning rate of group 0 to 6.2500e-04.
--------第 38 轮训练开始-------
-Epoch: 038/040 | Batch 0000/0469 | Loss: 0.0015
-Epoch: 038/040 | Batch 0100/0469 | Loss: 0.0040
-Epoch: 038/040 | Batch 0200/0469 | Loss: 0.0101
-Epoch: 038/040 | Batch 0300/0469 | Loss: 0.0085
-Epoch: 038/040 | Batch 0400/0469 | Loss: 0.0150
-当前学习率:  0.000625
-整体测试集上的Loss: 0.7255699615307094
-整体测试集上的正确率: 0.9971999526023865
--------第 39 轮训练开始-------
-Epoch: 039/040 | Batch 0000/0469 | Loss: 0.0165
-Epoch: 039/040 | Batch 0100/0469 | Loss: 0.0029
-Epoch: 039/040 | Batch 0200/0469 | Loss: 0.0209
-Epoch: 039/040 | Batch 0300/0469 | Loss: 0.0042
-Epoch: 039/040 | Batch 0400/0469 | Loss: 0.0445
-当前学习率:  0.000625
-整体测试集上的Loss: 0.7123449523387535
-整体测试集上的正确率: 0.9971999526023865
--------第 40 轮训练开始-------
-Epoch: 040/040 | Batch 0000/0469 | Loss: 0.0029
-Epoch: 040/040 | Batch 0100/0469 | Loss: 0.0069
-Epoch: 040/040 | Batch 0200/0469 | Loss: 0.0016
-Epoch: 040/040 | Batch 0300/0469 | Loss: 0.0209
-Epoch: 040/040 | Batch 0400/0469 | Loss: 0.0368
-当前学习率:  0.000625
-整体测试集上的Loss: 0.7031548699196719
-整体测试集上的正确率: 0.9972999691963196
-模型已保存
-[6.462724664248526, 2.6023749269224936, 1.7449312333774287, 1.211034838386695, 1.7332661045802524, 1.3211543928191531, 1.4192247435166792, 1.345669019381603, 1.390490747988224, 1.149901184173359, 1.8900136715456028, 1.310512080322951, 1.6872219986689743, 1.338122503759223, 1.280961189950176, 1.6033690214244416, 0.8896809826728713, 0.7469185847439803, 0.8464317488123925, 0.9403379547657096, 1.0662171866460994, 1.0830619467124052, 0.9674162798219186, 0.9596426749994862, 0.7750961835226917, 0.8169604908507608, 0.8531156124881818, 0.7724702855302894, 0.8438862516886729, 0.7494094841676997, 0.7046849369653501, 0.7267298157894402, 0.8071466983383289, 0.8321940300229471, 0.7994351318484405, 0.7441654443973675, 0.7707278954185313, 0.7255699615307094, 0.7123449523387535, 0.7031548699196719]
-[0.9724, 0.9899, 0.9928, 0.9954, 0.9924, 0.9949, 0.9944, 0.9943, 0.9947, 0.9951, 0.9934, 0.9944, 0.9938, 0.9947, 0.995, 0.9929, 0.9963, 0.9971, 0.997, 0.9961, 0.9961, 0.996, 0.9961, 0.9964, 0.997, 0.9969, 0.997, 0.997, 0.9968, 0.9971, 0.9977, 0.9971, 0.9973, 0.997, 0.9972, 0.9966, 0.9975, 0.9972, 0.9972, 0.9973]
+Training ResNet18 for 20 epochs with initial learning rate 0.01...
+Epoch: 001/020 | Current Learning Rate: 0.010000
+Epoch: 001/020 | Batch 0000/0469 | Loss: 2.4086
+Epoch: 001/020 | Batch 0050/0469 | Loss: 0.4454
+Epoch: 001/020 | Batch 0100/0469 | Loss: 0.3603
+Epoch: 001/020 | Batch 0150/0469 | Loss: 0.2232
+Epoch: 001/020 | Batch 0200/0469 | Loss: 0.2166
+Epoch: 001/020 | Batch 0250/0469 | Loss: 0.2461
+Epoch: 001/020 | Batch 0300/0469 | Loss: 0.2133
+Epoch: 001/020 | Batch 0350/0469 | Loss: 0.1838
+Epoch: 001/020 | Batch 0400/0469 | Loss: 0.2158
+Epoch: 001/020 | Batch 0450/0469 | Loss: 0.2113
+**Epoch: 001/020 | Train. Acc.: 95.060% | Loss: 0.1574
+**Epoch: 001/020 | Test. Acc.: 97.430% | Loss: 0.0829
+**Test loss decreased (inf --> 0.082921). Saving model ...
+Time elapsed: 0.49 min
+Epoch: 002/020 | Current Learning Rate: 0.010000
+Epoch: 002/020 | Batch 0000/0469 | Loss: 0.0568
+Epoch: 002/020 | Batch 0050/0469 | Loss: 0.1179
+Epoch: 002/020 | Batch 0100/0469 | Loss: 0.0986
+Epoch: 002/020 | Batch 0150/0469 | Loss: 0.0690
+Epoch: 002/020 | Batch 0200/0469 | Loss: 0.0987
+Epoch: 002/020 | Batch 0250/0469 | Loss: 0.1123
+Epoch: 002/020 | Batch 0300/0469 | Loss: 0.0955
+Epoch: 002/020 | Batch 0350/0469 | Loss: 0.1538
+Epoch: 002/020 | Batch 0400/0469 | Loss: 0.0644
+Epoch: 002/020 | Batch 0450/0469 | Loss: 0.0753
+**Epoch: 002/020 | Train. Acc.: 96.058% | Loss: 0.1304
+**Epoch: 002/020 | Test. Acc.: 97.630% | Loss: 0.0680
+**Test loss decreased (0.082921 --> 0.067971). Saving model ...
+Time elapsed: 0.97 min
+Epoch: 003/020 | Current Learning Rate: 0.010000
+Epoch: 003/020 | Batch 0000/0469 | Loss: 0.0776
+Epoch: 003/020 | Batch 0050/0469 | Loss: 0.1176
+Epoch: 003/020 | Batch 0100/0469 | Loss: 0.0292
+Epoch: 003/020 | Batch 0150/0469 | Loss: 0.0858
+Epoch: 003/020 | Batch 0200/0469 | Loss: 0.1547
+Epoch: 003/020 | Batch 0250/0469 | Loss: 0.0676
+Epoch: 003/020 | Batch 0300/0469 | Loss: 0.1174
+Epoch: 003/020 | Batch 0350/0469 | Loss: 0.0625
+Epoch: 003/020 | Batch 0400/0469 | Loss: 0.1044
+Epoch: 003/020 | Batch 0450/0469 | Loss: 0.2027
+**Epoch: 003/020 | Train. Acc.: 97.822% | Loss: 0.0687
+**Epoch: 003/020 | Test. Acc.: 99.000% | Loss: 0.0325
+**Test loss decreased (0.067971 --> 0.032523). Saving model ...
+Time elapsed: 1.45 min
+Epoch: 004/020 | Current Learning Rate: 0.010000
+Epoch: 004/020 | Batch 0000/0469 | Loss: 0.0471
+Epoch: 004/020 | Batch 0050/0469 | Loss: 0.0725
+Epoch: 004/020 | Batch 0100/0469 | Loss: 0.0765
+Epoch: 004/020 | Batch 0150/0469 | Loss: 0.0966
+Epoch: 004/020 | Batch 0200/0469 | Loss: 0.0451
+Epoch: 004/020 | Batch 0250/0469 | Loss: 0.1034
+Epoch: 004/020 | Batch 0300/0469 | Loss: 0.0428
+Epoch: 004/020 | Batch 0350/0469 | Loss: 0.0716
+Epoch: 004/020 | Batch 0400/0469 | Loss: 0.0701
+Epoch: 004/020 | Batch 0450/0469 | Loss: 0.1282
+**Epoch: 004/020 | Train. Acc.: 97.993% | Loss: 0.0652
+**Epoch: 004/020 | Test. Acc.: 98.900% | Loss: 0.0363
+Time elapsed: 1.93 min
+Epoch: 005/020 | Current Learning Rate: 0.010000
+Epoch: 005/020 | Batch 0000/0469 | Loss: 0.0178
+Epoch: 005/020 | Batch 0050/0469 | Loss: 0.0507
+Epoch: 005/020 | Batch 0100/0469 | Loss: 0.0408
+Epoch: 005/020 | Batch 0150/0469 | Loss: 0.0789
+Epoch: 005/020 | Batch 0200/0469 | Loss: 0.1099
+Epoch: 005/020 | Batch 0250/0469 | Loss: 0.0762
+Epoch: 005/020 | Batch 0300/0469 | Loss: 0.1143
+Epoch: 005/020 | Batch 0350/0469 | Loss: 0.0284
+Epoch: 005/020 | Batch 0400/0469 | Loss: 0.0651
+Epoch: 005/020 | Batch 0450/0469 | Loss: 0.0460
+**Epoch: 005/020 | Train. Acc.: 97.940% | Loss: 0.0640
+**Epoch: 005/020 | Test. Acc.: 98.830% | Loss: 0.0337
+Time elapsed: 2.41 min
+Epoch: 006/020 | Current Learning Rate: 0.010000
+Epoch: 006/020 | Batch 0000/0469 | Loss: 0.0198
+Epoch: 006/020 | Batch 0050/0469 | Loss: 0.0298
+Epoch: 006/020 | Batch 0100/0469 | Loss: 0.0389
+Epoch: 006/020 | Batch 0150/0469 | Loss: 0.0398
+Epoch: 006/020 | Batch 0200/0469 | Loss: 0.0482
+Epoch: 006/020 | Batch 0250/0469 | Loss: 0.0146
+Epoch: 006/020 | Batch 0300/0469 | Loss: 0.0849
+Epoch: 006/020 | Batch 0350/0469 | Loss: 0.0462
+Epoch: 006/020 | Batch 0400/0469 | Loss: 0.0626
+Epoch: 006/020 | Batch 0450/0469 | Loss: 0.0737
+**Epoch: 006/020 | Train. Acc.: 98.633% | Loss: 0.0456
+**Epoch: 006/020 | Test. Acc.: 99.210% | Loss: 0.0255
+**Test loss decreased (0.032523 --> 0.025511). Saving model ...
+Time elapsed: 2.89 min
+Epoch: 007/020 | Current Learning Rate: 0.010000
+Epoch: 007/020 | Batch 0000/0469 | Loss: 0.0144
+Epoch: 007/020 | Batch 0050/0469 | Loss: 0.0254
+Epoch: 007/020 | Batch 0100/0469 | Loss: 0.0215
+Epoch: 007/020 | Batch 0150/0469 | Loss: 0.0086
+Epoch: 007/020 | Batch 0200/0469 | Loss: 0.0807
+Epoch: 007/020 | Batch 0250/0469 | Loss: 0.0383
+Epoch: 007/020 | Batch 0300/0469 | Loss: 0.0797
+Epoch: 007/020 | Batch 0350/0469 | Loss: 0.0581
+Epoch: 007/020 | Batch 0400/0469 | Loss: 0.0392
+Epoch: 007/020 | Batch 0450/0469 | Loss: 0.0924
+**Epoch: 007/020 | Train. Acc.: 98.753% | Loss: 0.0402
+**Epoch: 007/020 | Test. Acc.: 99.240% | Loss: 0.0227
+**Test loss decreased (0.025511 --> 0.022703). Saving model ...
+Time elapsed: 3.38 min
+Epoch: 008/020 | Current Learning Rate: 0.010000
+Epoch: 008/020 | Batch 0000/0469 | Loss: 0.0113
+Epoch: 008/020 | Batch 0050/0469 | Loss: 0.0488
+Epoch: 008/020 | Batch 0100/0469 | Loss: 0.0243
+Epoch: 008/020 | Batch 0150/0469 | Loss: 0.0166
+Epoch: 008/020 | Batch 0200/0469 | Loss: 0.0615
+Epoch: 008/020 | Batch 0250/0469 | Loss: 0.0423
+Epoch: 008/020 | Batch 0300/0469 | Loss: 0.0578
+Epoch: 008/020 | Batch 0350/0469 | Loss: 0.0151
+Epoch: 008/020 | Batch 0400/0469 | Loss: 0.0687
+Epoch: 008/020 | Batch 0450/0469 | Loss: 0.0489
+**Epoch: 008/020 | Train. Acc.: 98.595% | Loss: 0.0438
+**Epoch: 008/020 | Test. Acc.: 99.080% | Loss: 0.0309
+Time elapsed: 3.85 min
+Epoch: 009/020 | Current Learning Rate: 0.010000
+Epoch: 009/020 | Batch 0000/0469 | Loss: 0.0231
+Epoch: 009/020 | Batch 0050/0469 | Loss: 0.0104
+Epoch: 009/020 | Batch 0100/0469 | Loss: 0.0430
+Epoch: 009/020 | Batch 0150/0469 | Loss: 0.0562
+Epoch: 009/020 | Batch 0200/0469 | Loss: 0.0579
+Epoch: 009/020 | Batch 0250/0469 | Loss: 0.0221
+Epoch: 009/020 | Batch 0300/0469 | Loss: 0.0821
+Epoch: 009/020 | Batch 0350/0469 | Loss: 0.0178
+Epoch: 009/020 | Batch 0400/0469 | Loss: 0.0771
+Epoch: 009/020 | Batch 0450/0469 | Loss: 0.1252
+**Epoch: 009/020 | Train. Acc.: 98.843% | Loss: 0.0368
+**Epoch: 009/020 | Test. Acc.: 99.280% | Loss: 0.0223
+**Test loss decreased (0.022703 --> 0.022308). Saving model ...
+Time elapsed: 4.33 min
+Epoch: 010/020 | Current Learning Rate: 0.010000
+Epoch: 010/020 | Batch 0000/0469 | Loss: 0.0480
+Epoch: 010/020 | Batch 0050/0469 | Loss: 0.0233
+Epoch: 010/020 | Batch 0100/0469 | Loss: 0.0447
+Epoch: 010/020 | Batch 0150/0469 | Loss: 0.0419
+Epoch: 010/020 | Batch 0200/0469 | Loss: 0.0492
+Epoch: 010/020 | Batch 0250/0469 | Loss: 0.0683
+Epoch: 010/020 | Batch 0300/0469 | Loss: 0.0704
+Epoch: 010/020 | Batch 0350/0469 | Loss: 0.0260
+Epoch: 010/020 | Batch 0400/0469 | Loss: 0.0203
+Epoch: 010/020 | Batch 0450/0469 | Loss: 0.0355
+**Epoch: 010/020 | Train. Acc.: 98.773% | Loss: 0.0385
+**Epoch: 010/020 | Test. Acc.: 99.250% | Loss: 0.0239
+Time elapsed: 4.79 min
+Epoch: 011/020 | Current Learning Rate: 0.010000
+Epoch: 011/020 | Batch 0000/0469 | Loss: 0.0444
+Epoch: 011/020 | Batch 0050/0469 | Loss: 0.0048
+Epoch: 011/020 | Batch 0100/0469 | Loss: 0.0357
+Epoch: 011/020 | Batch 0150/0469 | Loss: 0.0571
+Epoch: 011/020 | Batch 0200/0469 | Loss: 0.0546
+Epoch: 011/020 | Batch 0250/0469 | Loss: 0.0427
+Epoch: 011/020 | Batch 0300/0469 | Loss: 0.0784
+Epoch: 011/020 | Batch 0350/0469 | Loss: 0.0786
+Epoch: 011/020 | Batch 0400/0469 | Loss: 0.0452
+Epoch: 011/020 | Batch 0450/0469 | Loss: 0.1105
+**Epoch: 011/020 | Train. Acc.: 98.747% | Loss: 0.0397
+**Epoch: 011/020 | Test. Acc.: 99.080% | Loss: 0.0292
+Time elapsed: 5.25 min
+Epoch: 012/020 | Current Learning Rate: 0.010000
+Epoch: 012/020 | Batch 0000/0469 | Loss: 0.0385
+Epoch: 012/020 | Batch 0050/0469 | Loss: 0.0208
+Epoch: 012/020 | Batch 0100/0469 | Loss: 0.0580
+Epoch: 012/020 | Batch 0150/0469 | Loss: 0.0135
+Epoch: 012/020 | Batch 0200/0469 | Loss: 0.0243
+Epoch: 012/020 | Batch 0250/0469 | Loss: 0.0440
+Epoch: 012/020 | Batch 0300/0469 | Loss: 0.0608
+Epoch: 012/020 | Batch 0350/0469 | Loss: 0.0437
+Epoch: 012/020 | Batch 0400/0469 | Loss: 0.0578
+Epoch: 012/020 | Batch 0450/0469 | Loss: 0.0617
+**Epoch: 012/020 | Train. Acc.: 98.908% | Loss: 0.0357
+**Epoch: 012/020 | Test. Acc.: 99.210% | Loss: 0.0248
+Time elapsed: 5.71 min
+Epoch: 013/020 | Current Learning Rate: 0.010000
+Epoch: 013/020 | Batch 0000/0469 | Loss: 0.0147
+Epoch: 013/020 | Batch 0050/0469 | Loss: 0.0363
+Epoch: 013/020 | Batch 0100/0469 | Loss: 0.0257
+Epoch: 013/020 | Batch 0150/0469 | Loss: 0.0692
+Epoch: 013/020 | Batch 0200/0469 | Loss: 0.0797
+Epoch: 013/020 | Batch 0250/0469 | Loss: 0.0360
+Epoch: 013/020 | Batch 0300/0469 | Loss: 0.0725
+Epoch: 013/020 | Batch 0350/0469 | Loss: 0.0322
+Epoch: 013/020 | Batch 0400/0469 | Loss: 0.0997
+Epoch: 013/020 | Batch 0450/0469 | Loss: 0.0502
+**Epoch: 013/020 | Train. Acc.: 99.037% | Loss: 0.0321
+**Epoch: 013/020 | Test. Acc.: 99.290% | Loss: 0.0215
+**Test loss decreased (0.022308 --> 0.021462). Saving model ...
+Time elapsed: 6.19 min
+Epoch: 014/020 | Current Learning Rate: 0.010000
+Epoch: 014/020 | Batch 0000/0469 | Loss: 0.0297
+Epoch: 014/020 | Batch 0050/0469 | Loss: 0.0313
+Epoch: 014/020 | Batch 0100/0469 | Loss: 0.0230
+Epoch: 014/020 | Batch 0150/0469 | Loss: 0.0184
+Epoch: 014/020 | Batch 0200/0469 | Loss: 0.0744
+Epoch: 014/020 | Batch 0250/0469 | Loss: 0.0487
+Epoch: 014/020 | Batch 0300/0469 | Loss: 0.0425
+Epoch: 014/020 | Batch 0350/0469 | Loss: 0.0141
+Epoch: 014/020 | Batch 0400/0469 | Loss: 0.0442
+Epoch: 014/020 | Batch 0450/0469 | Loss: 0.0341
+**Epoch: 014/020 | Train. Acc.: 99.043% | Loss: 0.0302
+**Epoch: 014/020 | Test. Acc.: 99.380% | Loss: 0.0197
+**Test loss decreased (0.021462 --> 0.019653). Saving model ...
+Time elapsed: 6.65 min
+Epoch: 015/020 | Current Learning Rate: 0.010000
+Epoch: 015/020 | Batch 0000/0469 | Loss: 0.0089
+Epoch: 015/020 | Batch 0050/0469 | Loss: 0.0427
+Epoch: 015/020 | Batch 0100/0469 | Loss: 0.0146
+Epoch: 015/020 | Batch 0150/0469 | Loss: 0.0141
+Epoch: 015/020 | Batch 0200/0469 | Loss: 0.0704
+Epoch: 015/020 | Batch 0250/0469 | Loss: 0.0306
+Epoch: 015/020 | Batch 0300/0469 | Loss: 0.0651
+Epoch: 015/020 | Batch 0350/0469 | Loss: 0.0315
+Epoch: 015/020 | Batch 0400/0469 | Loss: 0.0676
+Epoch: 015/020 | Batch 0450/0469 | Loss: 0.0224
+**Epoch: 015/020 | Train. Acc.: 99.053% | Loss: 0.0296
+**Epoch: 015/020 | Test. Acc.: 99.420% | Loss: 0.0195
+**Test loss decreased (0.019653 --> 0.019454). Saving model ...
+Time elapsed: 7.11 min
+Epoch: 016/020 | Current Learning Rate: 0.010000
+Epoch: 016/020 | Batch 0000/0469 | Loss: 0.0200
+Epoch: 016/020 | Batch 0050/0469 | Loss: 0.0048
+Epoch: 016/020 | Batch 0100/0469 | Loss: 0.0501
+Epoch: 016/020 | Batch 0150/0469 | Loss: 0.0702
+Epoch: 016/020 | Batch 0200/0469 | Loss: 0.0134
+Epoch: 016/020 | Batch 0250/0469 | Loss: 0.0675
+Epoch: 016/020 | Batch 0300/0469 | Loss: 0.0347
+Epoch: 016/020 | Batch 0350/0469 | Loss: 0.0627
+Epoch: 016/020 | Batch 0400/0469 | Loss: 0.0854
+Epoch: 016/020 | Batch 0450/0469 | Loss: 0.0838
+**Epoch: 016/020 | Train. Acc.: 99.033% | Loss: 0.0311
+**Epoch: 016/020 | Test. Acc.: 99.460% | Loss: 0.0186
+**Test loss decreased (0.019454 --> 0.018610). Saving model ...
+Time elapsed: 7.57 min
+Epoch: 017/020 | Current Learning Rate: 0.010000
+Epoch: 017/020 | Batch 0000/0469 | Loss: 0.0090
+Epoch: 017/020 | Batch 0050/0469 | Loss: 0.0064
+Epoch: 017/020 | Batch 0100/0469 | Loss: 0.0336
+Epoch: 017/020 | Batch 0150/0469 | Loss: 0.0514
+Epoch: 017/020 | Batch 0200/0469 | Loss: 0.0287
+Epoch: 017/020 | Batch 0250/0469 | Loss: 0.0367
+Epoch: 017/020 | Batch 0300/0469 | Loss: 0.0098
+Epoch: 017/020 | Batch 0350/0469 | Loss: 0.0059
+Epoch: 017/020 | Batch 0400/0469 | Loss: 0.0303
+Epoch: 017/020 | Batch 0450/0469 | Loss: 0.0926
+**Epoch: 017/020 | Train. Acc.: 98.820% | Loss: 0.0384
+**Epoch: 017/020 | Test. Acc.: 99.220% | Loss: 0.0237
+Time elapsed: 8.03 min
+Epoch: 018/020 | Current Learning Rate: 0.010000
+Epoch: 018/020 | Batch 0000/0469 | Loss: 0.0181
+Epoch: 018/020 | Batch 0050/0469 | Loss: 0.0110
+Epoch: 018/020 | Batch 0100/0469 | Loss: 0.0205
+Epoch: 018/020 | Batch 0150/0469 | Loss: 0.0251
+Epoch: 018/020 | Batch 0200/0469 | Loss: 0.0315
+Epoch: 018/020 | Batch 0250/0469 | Loss: 0.0433
+Epoch: 018/020 | Batch 0300/0469 | Loss: 0.0621
+Epoch: 018/020 | Batch 0350/0469 | Loss: 0.0152
+Epoch: 018/020 | Batch 0400/0469 | Loss: 0.0890
+Epoch: 018/020 | Batch 0450/0469 | Loss: 0.0421
+**Epoch: 018/020 | Train. Acc.: 99.072% | Loss: 0.0303
+**Epoch: 018/020 | Test. Acc.: 99.390% | Loss: 0.0199
+Time elapsed: 8.49 min
+Epoch: 019/020 | Current Learning Rate: 0.010000
+Epoch: 019/020 | Batch 0000/0469 | Loss: 0.0041
+Epoch: 019/020 | Batch 0050/0469 | Loss: 0.0178
+Epoch: 019/020 | Batch 0100/0469 | Loss: 0.0213
+Epoch: 019/020 | Batch 0150/0469 | Loss: 0.0156
+Epoch: 019/020 | Batch 0200/0469 | Loss: 0.0222
+Epoch: 019/020 | Batch 0250/0469 | Loss: 0.0873
+Epoch: 019/020 | Batch 0300/0469 | Loss: 0.0560
+Epoch: 019/020 | Batch 0350/0469 | Loss: 0.0082
+Epoch: 019/020 | Batch 0400/0469 | Loss: 0.0371
+Epoch: 019/020 | Batch 0450/0469 | Loss: 0.0302
+**Epoch: 019/020 | Train. Acc.: 98.975% | Loss: 0.0317
+**Epoch: 019/020 | Test. Acc.: 99.370% | Loss: 0.0202
+Time elapsed: 8.96 min
+Epoch: 020/020 | Current Learning Rate: 0.010000
+Epoch: 020/020 | Batch 0000/0469 | Loss: 0.0029
+Epoch: 020/020 | Batch 0050/0469 | Loss: 0.0081
+Epoch: 020/020 | Batch 0100/0469 | Loss: 0.0493
+Epoch: 020/020 | Batch 0150/0469 | Loss: 0.0178
+Epoch: 020/020 | Batch 0200/0469 | Loss: 0.0455
+Epoch: 020/020 | Batch 0250/0469 | Loss: 0.0416
+Epoch: 020/020 | Batch 0300/0469 | Loss: 0.0522
+Epoch: 020/020 | Batch 0350/0469 | Loss: 0.0308
+Epoch: 020/020 | Batch 0400/0469 | Loss: 0.0248
+Epoch: 020/020 | Batch 0450/0469 | Loss: 0.0367
+**Epoch: 020/020 | Train. Acc.: 99.033% | Loss: 0.0307
+**Epoch: 020/020 | Test. Acc.: 99.400% | Loss: 0.0206
+Time elapsed: 9.42 min
+Total Training Time: 9.42 min
+Training ResNet18_With_Dropout for 20 epochs with initial learning rate 0.01...
+Epoch: 001/020 | Current Learning Rate: 0.010000
+Epoch: 001/020 | Batch 0000/0469 | Loss: 2.3873
+Epoch: 001/020 | Batch 0050/0469 | Loss: 0.5585
+Epoch: 001/020 | Batch 0100/0469 | Loss: 0.1583
+Epoch: 001/020 | Batch 0150/0469 | Loss: 0.1592
+Epoch: 001/020 | Batch 0200/0469 | Loss: 0.2039
+Epoch: 001/020 | Batch 0250/0469 | Loss: 0.2013
+Epoch: 001/020 | Batch 0300/0469 | Loss: 0.1470
+Epoch: 001/020 | Batch 0350/0469 | Loss: 0.2283
+Epoch: 001/020 | Batch 0400/0469 | Loss: 0.2105
+Epoch: 001/020 | Batch 0450/0469 | Loss: 0.2083
+**Epoch: 001/020 | Train. Acc.: 95.220% | Loss: 0.1524
+**Epoch: 001/020 | Test. Acc.: 98.150% | Loss: 0.0569
+**Test loss decreased (inf --> 0.056943). Saving model ...
+Time elapsed: 0.48 min
+Epoch: 002/020 | Current Learning Rate: 0.010000
+Epoch: 002/020 | Batch 0000/0469 | Loss: 0.1511
+Epoch: 002/020 | Batch 0050/0469 | Loss: 0.1218
+Epoch: 002/020 | Batch 0100/0469 | Loss: 0.0649
+Epoch: 002/020 | Batch 0150/0469 | Loss: 0.0736
+Epoch: 002/020 | Batch 0200/0469 | Loss: 0.1059
+Epoch: 002/020 | Batch 0250/0469 | Loss: 0.1230
+Epoch: 002/020 | Batch 0300/0469 | Loss: 0.1279
+Epoch: 002/020 | Batch 0350/0469 | Loss: 0.1030
+Epoch: 002/020 | Batch 0400/0469 | Loss: 0.1379
+Epoch: 002/020 | Batch 0450/0469 | Loss: 0.1425
+**Epoch: 002/020 | Train. Acc.: 97.502% | Loss: 0.0807
+**Epoch: 002/020 | Test. Acc.: 98.910% | Loss: 0.0354
+**Test loss decreased (0.056943 --> 0.035393). Saving model ...
+Time elapsed: 0.96 min
+Epoch: 003/020 | Current Learning Rate: 0.010000
+Epoch: 003/020 | Batch 0000/0469 | Loss: 0.1099
+Epoch: 003/020 | Batch 0050/0469 | Loss: 0.0521
+Epoch: 003/020 | Batch 0100/0469 | Loss: 0.1317
+Epoch: 003/020 | Batch 0150/0469 | Loss: 0.0507
+Epoch: 003/020 | Batch 0200/0469 | Loss: 0.0422
+Epoch: 003/020 | Batch 0250/0469 | Loss: 0.1430
+Epoch: 003/020 | Batch 0300/0469 | Loss: 0.0906
+Epoch: 003/020 | Batch 0350/0469 | Loss: 0.0449
+Epoch: 003/020 | Batch 0400/0469 | Loss: 0.0696
+Epoch: 003/020 | Batch 0450/0469 | Loss: 0.1278
+**Epoch: 003/020 | Train. Acc.: 96.453% | Loss: 0.1135
+**Epoch: 003/020 | Test. Acc.: 98.280% | Loss: 0.0552
+Time elapsed: 1.43 min
+Epoch: 004/020 | Current Learning Rate: 0.010000
+Epoch: 004/020 | Batch 0000/0469 | Loss: 0.0258
+Epoch: 004/020 | Batch 0050/0469 | Loss: 0.0470
+Epoch: 004/020 | Batch 0100/0469 | Loss: 0.0467
+Epoch: 004/020 | Batch 0150/0469 | Loss: 0.0579
+Epoch: 004/020 | Batch 0200/0469 | Loss: 0.0781
+Epoch: 004/020 | Batch 0250/0469 | Loss: 0.1120
+Epoch: 004/020 | Batch 0300/0469 | Loss: 0.1107
+Epoch: 004/020 | Batch 0350/0469 | Loss: 0.0162
+Epoch: 004/020 | Batch 0400/0469 | Loss: 0.0851
+Epoch: 004/020 | Batch 0450/0469 | Loss: 0.0567
+**Epoch: 004/020 | Train. Acc.: 98.535% | Loss: 0.0471
+**Epoch: 004/020 | Test. Acc.: 99.280% | Loss: 0.0224
+**Test loss decreased (0.035393 --> 0.022428). Saving model ...
+Time elapsed: 1.89 min
+Epoch: 005/020 | Current Learning Rate: 0.010000
+Epoch: 005/020 | Batch 0000/0469 | Loss: 0.0717
+Epoch: 005/020 | Batch 0050/0469 | Loss: 0.0083
+Epoch: 005/020 | Batch 0100/0469 | Loss: 0.0783
+Epoch: 005/020 | Batch 0150/0469 | Loss: 0.0709
+Epoch: 005/020 | Batch 0200/0469 | Loss: 0.0395
+Epoch: 005/020 | Batch 0250/0469 | Loss: 0.0350
+Epoch: 005/020 | Batch 0300/0469 | Loss: 0.1038
+Epoch: 005/020 | Batch 0350/0469 | Loss: 0.0282
+Epoch: 005/020 | Batch 0400/0469 | Loss: 0.0637
+Epoch: 005/020 | Batch 0450/0469 | Loss: 0.0372
+**Epoch: 005/020 | Train. Acc.: 98.690% | Loss: 0.0421
+**Epoch: 005/020 | Test. Acc.: 99.320% | Loss: 0.0212
+**Test loss decreased (0.022428 --> 0.021162). Saving model ...
+Time elapsed: 2.35 min
+Epoch: 006/020 | Current Learning Rate: 0.010000
+Epoch: 006/020 | Batch 0000/0469 | Loss: 0.0244
+Epoch: 006/020 | Batch 0050/0469 | Loss: 0.0600
+Epoch: 006/020 | Batch 0100/0469 | Loss: 0.0504
+Epoch: 006/020 | Batch 0150/0469 | Loss: 0.0540
+Epoch: 006/020 | Batch 0200/0469 | Loss: 0.0926
+Epoch: 006/020 | Batch 0250/0469 | Loss: 0.0702
+Epoch: 006/020 | Batch 0300/0469 | Loss: 0.0960
+Epoch: 006/020 | Batch 0350/0469 | Loss: 0.0779
+Epoch: 006/020 | Batch 0400/0469 | Loss: 0.1226
+Epoch: 006/020 | Batch 0450/0469 | Loss: 0.0357
+**Epoch: 006/020 | Train. Acc.: 98.470% | Loss: 0.0483
+**Epoch: 006/020 | Test. Acc.: 99.190% | Loss: 0.0254
+Time elapsed: 2.82 min
+Epoch: 007/020 | Current Learning Rate: 0.010000
+Epoch: 007/020 | Batch 0000/0469 | Loss: 0.0198
+Epoch: 007/020 | Batch 0050/0469 | Loss: 0.0128
+Epoch: 007/020 | Batch 0100/0469 | Loss: 0.0181
+Epoch: 007/020 | Batch 0150/0469 | Loss: 0.0184
+Epoch: 007/020 | Batch 0200/0469 | Loss: 0.0639
+Epoch: 007/020 | Batch 0250/0469 | Loss: 0.0431
+Epoch: 007/020 | Batch 0300/0469 | Loss: 0.0890
+Epoch: 007/020 | Batch 0350/0469 | Loss: 0.0205
+Epoch: 007/020 | Batch 0400/0469 | Loss: 0.1250
+Epoch: 007/020 | Batch 0450/0469 | Loss: 0.0895
+**Epoch: 007/020 | Train. Acc.: 98.502% | Loss: 0.0488
+**Epoch: 007/020 | Test. Acc.: 98.990% | Loss: 0.0295
+Time elapsed: 3.28 min
+Epoch: 008/020 | Current Learning Rate: 0.010000
+Epoch: 008/020 | Batch 0000/0469 | Loss: 0.1191
+Epoch: 008/020 | Batch 0050/0469 | Loss: 0.0322
+Epoch: 008/020 | Batch 0100/0469 | Loss: 0.0260
+Epoch: 008/020 | Batch 0150/0469 | Loss: 0.0430
+Epoch: 008/020 | Batch 0200/0469 | Loss: 0.0692
+Epoch: 008/020 | Batch 0250/0469 | Loss: 0.0671
+Epoch: 008/020 | Batch 0300/0469 | Loss: 0.0984
+Epoch: 008/020 | Batch 0350/0469 | Loss: 0.0119
+Epoch: 008/020 | Batch 0400/0469 | Loss: 0.0502
+Epoch: 008/020 | Batch 0450/0469 | Loss: 0.0671
+**Epoch: 008/020 | Train. Acc.: 98.865% | Loss: 0.0382
+**Epoch: 008/020 | Test. Acc.: 99.290% | Loss: 0.0207
+**Test loss decreased (0.021162 --> 0.020700). Saving model ...
+Time elapsed: 3.75 min
+Epoch: 009/020 | Current Learning Rate: 0.010000
+Epoch: 009/020 | Batch 0000/0469 | Loss: 0.0345
+Epoch: 009/020 | Batch 0050/0469 | Loss: 0.0143
+Epoch: 009/020 | Batch 0100/0469 | Loss: 0.0628
+Epoch: 009/020 | Batch 0150/0469 | Loss: 0.0142
+Epoch: 009/020 | Batch 0200/0469 | Loss: 0.0588
+Epoch: 009/020 | Batch 0250/0469 | Loss: 0.0460
+Epoch: 009/020 | Batch 0300/0469 | Loss: 0.1106
+Epoch: 009/020 | Batch 0350/0469 | Loss: 0.0389
+Epoch: 009/020 | Batch 0400/0469 | Loss: 0.0361
+Epoch: 009/020 | Batch 0450/0469 | Loss: 0.0482
+**Epoch: 009/020 | Train. Acc.: 98.897% | Loss: 0.0365
+**Epoch: 009/020 | Test. Acc.: 99.150% | Loss: 0.0261
+Time elapsed: 4.23 min
+Epoch: 010/020 | Current Learning Rate: 0.010000
+Epoch: 010/020 | Batch 0000/0469 | Loss: 0.0196
+Epoch: 010/020 | Batch 0050/0469 | Loss: 0.0071
+Epoch: 010/020 | Batch 0100/0469 | Loss: 0.0745
+Epoch: 010/020 | Batch 0150/0469 | Loss: 0.0443
+Epoch: 010/020 | Batch 0200/0469 | Loss: 0.0726
+Epoch: 010/020 | Batch 0250/0469 | Loss: 0.0580
+Epoch: 010/020 | Batch 0300/0469 | Loss: 0.0875
+Epoch: 010/020 | Batch 0350/0469 | Loss: 0.0256
+Epoch: 010/020 | Batch 0400/0469 | Loss: 0.0847
+Epoch: 010/020 | Batch 0450/0469 | Loss: 0.1081
+**Epoch: 010/020 | Train. Acc.: 98.897% | Loss: 0.0355
+**Epoch: 010/020 | Test. Acc.: 99.370% | Loss: 0.0219
+Time elapsed: 4.70 min
+Epoch: 011/020 | Current Learning Rate: 0.010000
+Epoch: 011/020 | Batch 0000/0469 | Loss: 0.0555
+Epoch: 011/020 | Batch 0050/0469 | Loss: 0.0418
+Epoch: 011/020 | Batch 0100/0469 | Loss: 0.0663
+Epoch: 011/020 | Batch 0150/0469 | Loss: 0.0970
+Epoch: 011/020 | Batch 0200/0469 | Loss: 0.0676
+Epoch: 011/020 | Batch 0250/0469 | Loss: 0.0299
+Epoch: 011/020 | Batch 0300/0469 | Loss: 0.0425
+Epoch: 011/020 | Batch 0350/0469 | Loss: 0.0205
+Epoch: 011/020 | Batch 0400/0469 | Loss: 0.0492
+Epoch: 011/020 | Batch 0450/0469 | Loss: 0.0239
+**Epoch: 011/020 | Train. Acc.: 99.057% | Loss: 0.0299
+**Epoch: 011/020 | Test. Acc.: 99.310% | Loss: 0.0202
+**Test loss decreased (0.020700 --> 0.020194). Saving model ...
+Time elapsed: 5.16 min
+Epoch: 012/020 | Current Learning Rate: 0.010000
+Epoch: 012/020 | Batch 0000/0469 | Loss: 0.0222
+Epoch: 012/020 | Batch 0050/0469 | Loss: 0.0079
+Epoch: 012/020 | Batch 0100/0469 | Loss: 0.0409
+Epoch: 012/020 | Batch 0150/0469 | Loss: 0.0114
+Epoch: 012/020 | Batch 0200/0469 | Loss: 0.0747
+Epoch: 012/020 | Batch 0250/0469 | Loss: 0.0360
+Epoch: 012/020 | Batch 0300/0469 | Loss: 0.1067
+Epoch: 012/020 | Batch 0350/0469 | Loss: 0.0285
+Epoch: 012/020 | Batch 0400/0469 | Loss: 0.0748
+Epoch: 012/020 | Batch 0450/0469 | Loss: 0.0335
+**Epoch: 012/020 | Train. Acc.: 98.890% | Loss: 0.0349
+**Epoch: 012/020 | Test. Acc.: 99.330% | Loss: 0.0214
+Time elapsed: 5.62 min
+Epoch: 013/020 | Current Learning Rate: 0.010000
+Epoch: 013/020 | Batch 0000/0469 | Loss: 0.0298
+Epoch: 013/020 | Batch 0050/0469 | Loss: 0.0239
+Epoch: 013/020 | Batch 0100/0469 | Loss: 0.0379
+Epoch: 013/020 | Batch 0150/0469 | Loss: 0.0335
+Epoch: 013/020 | Batch 0200/0469 | Loss: 0.0619
+Epoch: 013/020 | Batch 0250/0469 | Loss: 0.0181
+Epoch: 013/020 | Batch 0300/0469 | Loss: 0.0507
+Epoch: 013/020 | Batch 0350/0469 | Loss: 0.0163
+Epoch: 013/020 | Batch 0400/0469 | Loss: 0.0529
+Epoch: 013/020 | Batch 0450/0469 | Loss: 0.0622
+**Epoch: 013/020 | Train. Acc.: 98.637% | Loss: 0.0433
+**Epoch: 013/020 | Test. Acc.: 99.220% | Loss: 0.0283
+Time elapsed: 6.08 min
+Epoch: 014/020 | Current Learning Rate: 0.010000
+Epoch: 014/020 | Batch 0000/0469 | Loss: 0.0248
+Epoch: 014/020 | Batch 0050/0469 | Loss: 0.0045
+Epoch: 014/020 | Batch 0100/0469 | Loss: 0.0241
+Epoch: 014/020 | Batch 0150/0469 | Loss: 0.0435
+Epoch: 014/020 | Batch 0200/0469 | Loss: 0.0750
+Epoch: 014/020 | Batch 0250/0469 | Loss: 0.0345
+Epoch: 014/020 | Batch 0300/0469 | Loss: 0.0634
+Epoch: 014/020 | Batch 0350/0469 | Loss: 0.0226
+Epoch: 014/020 | Batch 0400/0469 | Loss: 0.0920
+Epoch: 014/020 | Batch 0450/0469 | Loss: 0.0728
+**Epoch: 014/020 | Train. Acc.: 98.985% | Loss: 0.0329
+**Epoch: 014/020 | Test. Acc.: 99.380% | Loss: 0.0196
+**Test loss decreased (0.020194 --> 0.019623). Saving model ...
+Time elapsed: 6.55 min
+Epoch: 015/020 | Current Learning Rate: 0.010000
+Epoch: 015/020 | Batch 0000/0469 | Loss: 0.0135
+Epoch: 015/020 | Batch 0050/0469 | Loss: 0.0325
+Epoch: 015/020 | Batch 0100/0469 | Loss: 0.0280
+Epoch: 015/020 | Batch 0150/0469 | Loss: 0.0266
+Epoch: 015/020 | Batch 0200/0469 | Loss: 0.0401
+Epoch: 015/020 | Batch 0250/0469 | Loss: 0.0583
+Epoch: 015/020 | Batch 0300/0469 | Loss: 0.0639
+Epoch: 015/020 | Batch 0350/0469 | Loss: 0.0129
+Epoch: 015/020 | Batch 0400/0469 | Loss: 0.0653
+Epoch: 015/020 | Batch 0450/0469 | Loss: 0.0201
+**Epoch: 015/020 | Train. Acc.: 99.102% | Loss: 0.0301
+**Epoch: 015/020 | Test. Acc.: 99.490% | Loss: 0.0184
+**Test loss decreased (0.019623 --> 0.018403). Saving model ...
+Time elapsed: 7.01 min
+Epoch: 016/020 | Current Learning Rate: 0.010000
+Epoch: 016/020 | Batch 0000/0469 | Loss: 0.0229
+Epoch: 016/020 | Batch 0050/0469 | Loss: 0.0033
+Epoch: 016/020 | Batch 0100/0469 | Loss: 0.0303
+Epoch: 016/020 | Batch 0150/0469 | Loss: 0.0287
+Epoch: 016/020 | Batch 0200/0469 | Loss: 0.0884
+Epoch: 016/020 | Batch 0250/0469 | Loss: 0.0690
+Epoch: 016/020 | Batch 0300/0469 | Loss: 0.0156
+Epoch: 016/020 | Batch 0350/0469 | Loss: 0.0447
+Epoch: 016/020 | Batch 0400/0469 | Loss: 0.0713
+Epoch: 016/020 | Batch 0450/0469 | Loss: 0.0081
+**Epoch: 016/020 | Train. Acc.: 98.897% | Loss: 0.0351
+**Epoch: 016/020 | Test. Acc.: 99.160% | Loss: 0.0257
+Time elapsed: 7.47 min
+Epoch: 017/020 | Current Learning Rate: 0.010000
+Epoch: 017/020 | Batch 0000/0469 | Loss: 0.0735
+Epoch: 017/020 | Batch 0050/0469 | Loss: 0.0350
+Epoch: 017/020 | Batch 0100/0469 | Loss: 0.0169
+Epoch: 017/020 | Batch 0150/0469 | Loss: 0.0571
+Epoch: 017/020 | Batch 0200/0469 | Loss: 0.0193
+Epoch: 017/020 | Batch 0250/0469 | Loss: 0.0391
+Epoch: 017/020 | Batch 0300/0469 | Loss: 0.0441
+Epoch: 017/020 | Batch 0350/0469 | Loss: 0.0153
+Epoch: 017/020 | Batch 0400/0469 | Loss: 0.0827
+Epoch: 017/020 | Batch 0450/0469 | Loss: 0.0336
+**Epoch: 017/020 | Train. Acc.: 99.063% | Loss: 0.0297
+**Epoch: 017/020 | Test. Acc.: 99.420% | Loss: 0.0198
+Time elapsed: 7.93 min
+Epoch: 018/020 | Current Learning Rate: 0.010000
+Epoch: 018/020 | Batch 0000/0469 | Loss: 0.0082
+Epoch: 018/020 | Batch 0050/0469 | Loss: 0.0172
+Epoch: 018/020 | Batch 0100/0469 | Loss: 0.0230
+Epoch: 018/020 | Batch 0150/0469 | Loss: 0.0056
+Epoch: 018/020 | Batch 0200/0469 | Loss: 0.1249
+Epoch: 018/020 | Batch 0250/0469 | Loss: 0.0525
+Epoch: 018/020 | Batch 0300/0469 | Loss: 0.0480
+Epoch: 018/020 | Batch 0350/0469 | Loss: 0.0052
+Epoch: 018/020 | Batch 0400/0469 | Loss: 0.0501
+Epoch: 018/020 | Batch 0450/0469 | Loss: 0.0227
+**Epoch: 018/020 | Train. Acc.: 98.922% | Loss: 0.0349
+**Epoch: 018/020 | Test. Acc.: 99.160% | Loss: 0.0266
+Time elapsed: 8.39 min
+Epoch: 019/020 | Current Learning Rate: 0.010000
+Epoch: 019/020 | Batch 0000/0469 | Loss: 0.0095
+Epoch: 019/020 | Batch 0050/0469 | Loss: 0.0127
+Epoch: 019/020 | Batch 0100/0469 | Loss: 0.0403
+Epoch: 019/020 | Batch 0150/0469 | Loss: 0.0827
+Epoch: 019/020 | Batch 0200/0469 | Loss: 0.0736
+Epoch: 019/020 | Batch 0250/0469 | Loss: 0.0403
+Epoch: 019/020 | Batch 0300/0469 | Loss: 0.0355
+Epoch: 019/020 | Batch 0350/0469 | Loss: 0.1097
+Epoch: 019/020 | Batch 0400/0469 | Loss: 0.0967
+Epoch: 019/020 | Batch 0450/0469 | Loss: 0.0197
+**Epoch: 019/020 | Train. Acc.: 98.970% | Loss: 0.0339
+**Epoch: 019/020 | Test. Acc.: 99.240% | Loss: 0.0240
+Time elapsed: 8.85 min
+Epoch: 020/020 | Current Learning Rate: 0.010000
+Epoch: 020/020 | Batch 0000/0469 | Loss: 0.0091
+Epoch: 020/020 | Batch 0050/0469 | Loss: 0.0231
+Epoch: 020/020 | Batch 0100/0469 | Loss: 0.0265
+Epoch: 020/020 | Batch 0150/0469 | Loss: 0.0183
+Epoch: 020/020 | Batch 0200/0469 | Loss: 0.0260
+Epoch: 020/020 | Batch 0250/0469 | Loss: 0.0811
+Epoch: 020/020 | Batch 0300/0469 | Loss: 0.0426
+Epoch: 020/020 | Batch 0350/0469 | Loss: 0.0388
+Epoch: 020/020 | Batch 0400/0469 | Loss: 0.0664
+Epoch: 020/020 | Batch 0450/0469 | Loss: 0.0341
+**Epoch: 020/020 | Train. Acc.: 99.080% | Loss: 0.0293
+**Epoch: 020/020 | Test. Acc.: 99.210% | Loss: 0.0247
+Time elapsed: 9.31 min
+Total Training Time: 9.31 min
+Training ResNet_with_Smaller_Conv for 20 epochs with initial learning rate 0.01...
+Epoch: 001/020 | Current Learning Rate: 0.010000
+Epoch: 001/020 | Batch 0000/0469 | Loss: 2.3403
+Epoch: 001/020 | Batch 0050/0469 | Loss: 0.3464
+Epoch: 001/020 | Batch 0100/0469 | Loss: 0.0998
+Epoch: 001/020 | Batch 0150/0469 | Loss: 0.1245
+Epoch: 001/020 | Batch 0200/0469 | Loss: 0.1630
+Epoch: 001/020 | Batch 0250/0469 | Loss: 0.1557
+Epoch: 001/020 | Batch 0300/0469 | Loss: 0.0797
+Epoch: 001/020 | Batch 0350/0469 | Loss: 0.0609
+Epoch: 001/020 | Batch 0400/0469 | Loss: 0.0753
+Epoch: 001/020 | Batch 0450/0469 | Loss: 0.1326
+**Epoch: 001/020 | Train. Acc.: 96.890% | Loss: 0.1028
+**Epoch: 001/020 | Test. Acc.: 97.830% | Loss: 0.0727
+**Test loss decreased (inf --> 0.072720). Saving model ...
+Time elapsed: 1.31 min
+Epoch: 002/020 | Current Learning Rate: 0.010000
+Epoch: 002/020 | Batch 0000/0469 | Loss: 0.0737
+Epoch: 002/020 | Batch 0050/0469 | Loss: 0.0924
+Epoch: 002/020 | Batch 0100/0469 | Loss: 0.0280
+Epoch: 002/020 | Batch 0150/0469 | Loss: 0.0842
+Epoch: 002/020 | Batch 0200/0469 | Loss: 0.0743
+Epoch: 002/020 | Batch 0250/0469 | Loss: 0.0731
+Epoch: 002/020 | Batch 0300/0469 | Loss: 0.0729
+Epoch: 002/020 | Batch 0350/0469 | Loss: 0.0229
+Epoch: 002/020 | Batch 0400/0469 | Loss: 0.1088
+Epoch: 002/020 | Batch 0450/0469 | Loss: 0.0430
+**Epoch: 002/020 | Train. Acc.: 98.773% | Loss: 0.0399
+**Epoch: 002/020 | Test. Acc.: 99.160% | Loss: 0.0236
+**Test loss decreased (0.072720 --> 0.023638). Saving model ...
+Time elapsed: 2.62 min
+Epoch: 003/020 | Current Learning Rate: 0.010000
+Epoch: 003/020 | Batch 0000/0469 | Loss: 0.0322
+Epoch: 003/020 | Batch 0050/0469 | Loss: 0.0037
+Epoch: 003/020 | Batch 0100/0469 | Loss: 0.0494
+Epoch: 003/020 | Batch 0150/0469 | Loss: 0.0389
+Epoch: 003/020 | Batch 0200/0469 | Loss: 0.0675
+Epoch: 003/020 | Batch 0250/0469 | Loss: 0.0831
+Epoch: 003/020 | Batch 0300/0469 | Loss: 0.0286
+Epoch: 003/020 | Batch 0350/0469 | Loss: 0.0291
+Epoch: 003/020 | Batch 0400/0469 | Loss: 0.0997
+Epoch: 003/020 | Batch 0450/0469 | Loss: 0.0614
+**Epoch: 003/020 | Train. Acc.: 98.698% | Loss: 0.0406
+**Epoch: 003/020 | Test. Acc.: 99.220% | Loss: 0.0236
+**Test loss decreased (0.023638 --> 0.023597). Saving model ...
+Time elapsed: 3.92 min
+Epoch: 004/020 | Current Learning Rate: 0.010000
+Epoch: 004/020 | Batch 0000/0469 | Loss: 0.0174
+Epoch: 004/020 | Batch 0050/0469 | Loss: 0.0089
+Epoch: 004/020 | Batch 0100/0469 | Loss: 0.0346
+Epoch: 004/020 | Batch 0150/0469 | Loss: 0.0114
+Epoch: 004/020 | Batch 0200/0469 | Loss: 0.0475
+Epoch: 004/020 | Batch 0250/0469 | Loss: 0.0595
+Epoch: 004/020 | Batch 0300/0469 | Loss: 0.0506
+Epoch: 004/020 | Batch 0350/0469 | Loss: 0.0123
+Epoch: 004/020 | Batch 0400/0469 | Loss: 0.0604
+Epoch: 004/020 | Batch 0450/0469 | Loss: 0.0581
+**Epoch: 004/020 | Train. Acc.: 99.130% | Loss: 0.0278
+**Epoch: 004/020 | Test. Acc.: 99.500% | Loss: 0.0167
+**Test loss decreased (0.023597 --> 0.016675). Saving model ...
+Time elapsed: 5.23 min
+Epoch: 005/020 | Current Learning Rate: 0.010000
+Epoch: 005/020 | Batch 0000/0469 | Loss: 0.0204
+Epoch: 005/020 | Batch 0050/0469 | Loss: 0.0049
+Epoch: 005/020 | Batch 0100/0469 | Loss: 0.0218
+Epoch: 005/020 | Batch 0150/0469 | Loss: 0.0080
+Epoch: 005/020 | Batch 0200/0469 | Loss: 0.0437
+Epoch: 005/020 | Batch 0250/0469 | Loss: 0.0504
+Epoch: 005/020 | Batch 0300/0469 | Loss: 0.0464
+Epoch: 005/020 | Batch 0350/0469 | Loss: 0.0107
+Epoch: 005/020 | Batch 0400/0469 | Loss: 0.0313
+Epoch: 005/020 | Batch 0450/0469 | Loss: 0.1006
+**Epoch: 005/020 | Train. Acc.: 98.540% | Loss: 0.0439
+**Epoch: 005/020 | Test. Acc.: 98.960% | Loss: 0.0322
+Time elapsed: 6.55 min
+Epoch: 006/020 | Current Learning Rate: 0.010000
+Epoch: 006/020 | Batch 0000/0469 | Loss: 0.0161
+Epoch: 006/020 | Batch 0050/0469 | Loss: 0.0055
+Epoch: 006/020 | Batch 0100/0469 | Loss: 0.0239
+Epoch: 006/020 | Batch 0150/0469 | Loss: 0.0291
+Epoch: 006/020 | Batch 0200/0469 | Loss: 0.0297
+Epoch: 006/020 | Batch 0250/0469 | Loss: 0.0422
+Epoch: 006/020 | Batch 0300/0469 | Loss: 0.0592
+Epoch: 006/020 | Batch 0350/0469 | Loss: 0.0080
+Epoch: 006/020 | Batch 0400/0469 | Loss: 0.0168
+Epoch: 006/020 | Batch 0450/0469 | Loss: 0.0533
+**Epoch: 006/020 | Train. Acc.: 99.027% | Loss: 0.0308
+**Epoch: 006/020 | Test. Acc.: 99.270% | Loss: 0.0241
+Time elapsed: 7.88 min
+Epoch: 007/020 | Current Learning Rate: 0.010000
+Epoch: 007/020 | Batch 0000/0469 | Loss: 0.0157
+Epoch: 007/020 | Batch 0050/0469 | Loss: 0.0045
+Epoch: 007/020 | Batch 0100/0469 | Loss: 0.0268
+Epoch: 007/020 | Batch 0150/0469 | Loss: 0.0396
+Epoch: 007/020 | Batch 0200/0469 | Loss: 0.0333
+Epoch: 007/020 | Batch 0250/0469 | Loss: 0.0087
+Epoch: 007/020 | Batch 0300/0469 | Loss: 0.0474
+Epoch: 007/020 | Batch 0350/0469 | Loss: 0.0049
+Epoch: 007/020 | Batch 0400/0469 | Loss: 0.0511
+Epoch: 007/020 | Batch 0450/0469 | Loss: 0.0532
+**Epoch: 007/020 | Train. Acc.: 99.147% | Loss: 0.0271
+**Epoch: 007/020 | Test. Acc.: 99.450% | Loss: 0.0213
+Time elapsed: 9.19 min
+Epoch: 008/020 | Current Learning Rate: 0.010000
+Epoch: 008/020 | Batch 0000/0469 | Loss: 0.0168
+Epoch: 008/020 | Batch 0050/0469 | Loss: 0.0201
+Epoch: 008/020 | Batch 0100/0469 | Loss: 0.0127
+Epoch: 008/020 | Batch 0150/0469 | Loss: 0.0228
+Epoch: 008/020 | Batch 0200/0469 | Loss: 0.0426
+Epoch: 008/020 | Batch 0250/0469 | Loss: 0.0461
+Epoch: 008/020 | Batch 0300/0469 | Loss: 0.0561
+Epoch: 008/020 | Batch 0350/0469 | Loss: 0.0058
+Epoch: 008/020 | Batch 0400/0469 | Loss: 0.0100
+Epoch: 008/020 | Batch 0450/0469 | Loss: 0.0439
+**Epoch: 008/020 | Train. Acc.: 99.238% | Loss: 0.0246
+**Epoch: 008/020 | Test. Acc.: 99.370% | Loss: 0.0199
+Time elapsed: 10.51 min
+Epoch: 009/020 | Current Learning Rate: 0.010000
+Epoch: 009/020 | Batch 0000/0469 | Loss: 0.0270
+Epoch: 009/020 | Batch 0050/0469 | Loss: 0.0188
+Epoch: 009/020 | Batch 0100/0469 | Loss: 0.0277
+Epoch: 009/020 | Batch 0150/0469 | Loss: 0.0081
+Epoch: 009/020 | Batch 0200/0469 | Loss: 0.0146
+Epoch: 009/020 | Batch 0250/0469 | Loss: 0.0565
+Epoch: 009/020 | Batch 0300/0469 | Loss: 0.0764
+Epoch: 009/020 | Batch 0350/0469 | Loss: 0.0100
+Epoch: 009/020 | Batch 0400/0469 | Loss: 0.0277
+Epoch: 009/020 | Batch 0450/0469 | Loss: 0.0393
+**Epoch: 009/020 | Train. Acc.: 99.028% | Loss: 0.0300
+**Epoch: 009/020 | Test. Acc.: 99.210% | Loss: 0.0258
+Time elapsed: 11.82 min
+Epoch: 010/020 | Current Learning Rate: 0.010000
+Epoch: 010/020 | Batch 0000/0469 | Loss: 0.0222
+Epoch: 010/020 | Batch 0050/0469 | Loss: 0.0021
+Epoch: 010/020 | Batch 0100/0469 | Loss: 0.0237
+Epoch: 010/020 | Batch 0150/0469 | Loss: 0.0069
+Epoch: 010/020 | Batch 0200/0469 | Loss: 0.0319
+Epoch: 010/020 | Batch 0250/0469 | Loss: 0.0199
+Epoch: 010/020 | Batch 0300/0469 | Loss: 0.0366
+Epoch: 010/020 | Batch 0350/0469 | Loss: 0.0051
+Epoch: 010/020 | Batch 0400/0469 | Loss: 0.0180
+Epoch: 010/020 | Batch 0450/0469 | Loss: 0.0773
+**Epoch: 010/020 | Train. Acc.: 99.228% | Loss: 0.0233
+**Epoch: 010/020 | Test. Acc.: 99.280% | Loss: 0.0212
+Epoch 00010: reducing learning rate of group 0 to 5.0000e-03.
+Time elapsed: 13.14 min
+Epoch: 011/020 | Current Learning Rate: 0.005000
+Epoch: 011/020 | Batch 0000/0469 | Loss: 0.0027
+Epoch: 011/020 | Batch 0050/0469 | Loss: 0.0008
+Epoch: 011/020 | Batch 0100/0469 | Loss: 0.0196
+Epoch: 011/020 | Batch 0150/0469 | Loss: 0.0123
+Epoch: 011/020 | Batch 0200/0469 | Loss: 0.0098
+Epoch: 011/020 | Batch 0250/0469 | Loss: 0.0098
+Epoch: 011/020 | Batch 0300/0469 | Loss: 0.0522
+Epoch: 011/020 | Batch 0350/0469 | Loss: 0.0028
+Epoch: 011/020 | Batch 0400/0469 | Loss: 0.0442
+Epoch: 011/020 | Batch 0450/0469 | Loss: 0.0155
+**Epoch: 011/020 | Train. Acc.: 99.523% | Loss: 0.0159
+**Epoch: 011/020 | Test. Acc.: 99.620% | Loss: 0.0116
+**Test loss decreased (0.016675 --> 0.011592). Saving model ...
+Time elapsed: 14.46 min
+Epoch: 012/020 | Current Learning Rate: 0.005000
+Epoch: 012/020 | Batch 0000/0469 | Loss: 0.0086
+Epoch: 012/020 | Batch 0050/0469 | Loss: 0.0024
+Epoch: 012/020 | Batch 0100/0469 | Loss: 0.0337
+Epoch: 012/020 | Batch 0150/0469 | Loss: 0.0087
+Epoch: 012/020 | Batch 0200/0469 | Loss: 0.0263
+Epoch: 012/020 | Batch 0250/0469 | Loss: 0.0214
+Epoch: 012/020 | Batch 0300/0469 | Loss: 0.0482
+Epoch: 012/020 | Batch 0350/0469 | Loss: 0.0043
+Epoch: 012/020 | Batch 0400/0469 | Loss: 0.0540
+Epoch: 012/020 | Batch 0450/0469 | Loss: 0.0170
+**Epoch: 012/020 | Train. Acc.: 99.360% | Loss: 0.0193
+**Epoch: 012/020 | Test. Acc.: 99.490% | Loss: 0.0166
+Time elapsed: 15.78 min
+Epoch: 013/020 | Current Learning Rate: 0.005000
+Epoch: 013/020 | Batch 0000/0469 | Loss: 0.0072
+Epoch: 013/020 | Batch 0050/0469 | Loss: 0.0096
+Epoch: 013/020 | Batch 0100/0469 | Loss: 0.0170
+Epoch: 013/020 | Batch 0150/0469 | Loss: 0.0112
+Epoch: 013/020 | Batch 0200/0469 | Loss: 0.0083
+Epoch: 013/020 | Batch 0250/0469 | Loss: 0.0236
+Epoch: 013/020 | Batch 0300/0469 | Loss: 0.0346
+Epoch: 013/020 | Batch 0350/0469 | Loss: 0.0066
+Epoch: 013/020 | Batch 0400/0469 | Loss: 0.0113
+Epoch: 013/020 | Batch 0450/0469 | Loss: 0.0178
+**Epoch: 013/020 | Train. Acc.: 99.528% | Loss: 0.0149
+**Epoch: 013/020 | Test. Acc.: 99.640% | Loss: 0.0132
+Time elapsed: 17.10 min
+Epoch: 014/020 | Current Learning Rate: 0.005000
+Epoch: 014/020 | Batch 0000/0469 | Loss: 0.0146
+Epoch: 014/020 | Batch 0050/0469 | Loss: 0.0006
+Epoch: 014/020 | Batch 0100/0469 | Loss: 0.0091
+Epoch: 014/020 | Batch 0150/0469 | Loss: 0.0340
+Epoch: 014/020 | Batch 0200/0469 | Loss: 0.0256
+Epoch: 014/020 | Batch 0250/0469 | Loss: 0.0301
+Epoch: 014/020 | Batch 0300/0469 | Loss: 0.0414
+Epoch: 014/020 | Batch 0350/0469 | Loss: 0.0308
+Epoch: 014/020 | Batch 0400/0469 | Loss: 0.0467
+Epoch: 014/020 | Batch 0450/0469 | Loss: 0.0776
+**Epoch: 014/020 | Train. Acc.: 99.515% | Loss: 0.0151
+**Epoch: 014/020 | Test. Acc.: 99.610% | Loss: 0.0134
+Time elapsed: 18.41 min
+Epoch: 015/020 | Current Learning Rate: 0.005000
+Epoch: 015/020 | Batch 0000/0469 | Loss: 0.0045
+Epoch: 015/020 | Batch 0050/0469 | Loss: 0.0007
+Epoch: 015/020 | Batch 0100/0469 | Loss: 0.0190
+Epoch: 015/020 | Batch 0150/0469 | Loss: 0.0115
+Epoch: 015/020 | Batch 0200/0469 | Loss: 0.0342
+Epoch: 015/020 | Batch 0250/0469 | Loss: 0.0277
+Epoch: 015/020 | Batch 0300/0469 | Loss: 0.0402
+Epoch: 015/020 | Batch 0350/0469 | Loss: 0.0020
+Epoch: 015/020 | Batch 0400/0469 | Loss: 0.0396
+Epoch: 015/020 | Batch 0450/0469 | Loss: 0.0075
+**Epoch: 015/020 | Train. Acc.: 99.482% | Loss: 0.0169
+**Epoch: 015/020 | Test. Acc.: 99.500% | Loss: 0.0172
+Time elapsed: 19.74 min
+Epoch: 016/020 | Current Learning Rate: 0.005000
+Epoch: 016/020 | Batch 0000/0469 | Loss: 0.0170
+Epoch: 016/020 | Batch 0050/0469 | Loss: 0.0011
+Epoch: 016/020 | Batch 0100/0469 | Loss: 0.0094
+Epoch: 016/020 | Batch 0150/0469 | Loss: 0.0198
+Epoch: 016/020 | Batch 0200/0469 | Loss: 0.0451
+Epoch: 016/020 | Batch 0250/0469 | Loss: 0.0048
+Epoch: 016/020 | Batch 0300/0469 | Loss: 0.0612
+Epoch: 016/020 | Batch 0350/0469 | Loss: 0.0157
+Epoch: 016/020 | Batch 0400/0469 | Loss: 0.0516
+Epoch: 016/020 | Batch 0450/0469 | Loss: 0.0146
+**Epoch: 016/020 | Train. Acc.: 99.550% | Loss: 0.0143
+**Epoch: 016/020 | Test. Acc.: 99.630% | Loss: 0.0136
+Time elapsed: 21.07 min
+Epoch: 017/020 | Current Learning Rate: 0.005000
+Epoch: 017/020 | Batch 0000/0469 | Loss: 0.0092
+Epoch: 017/020 | Batch 0050/0469 | Loss: 0.0257
+Epoch: 017/020 | Batch 0100/0469 | Loss: 0.0124
+Epoch: 017/020 | Batch 0150/0469 | Loss: 0.0147
+Epoch: 017/020 | Batch 0200/0469 | Loss: 0.0363
+Epoch: 017/020 | Batch 0250/0469 | Loss: 0.0372
+Epoch: 017/020 | Batch 0300/0469 | Loss: 0.0478
+Epoch: 017/020 | Batch 0350/0469 | Loss: 0.0068
+Epoch: 017/020 | Batch 0400/0469 | Loss: 0.0317
+Epoch: 017/020 | Batch 0450/0469 | Loss: 0.0049
+**Epoch: 017/020 | Train. Acc.: 99.545% | Loss: 0.0138
+**Epoch: 017/020 | Test. Acc.: 99.520% | Loss: 0.0143
+Epoch 00017: reducing learning rate of group 0 to 2.5000e-03.
+Time elapsed: 22.39 min
+Epoch: 018/020 | Current Learning Rate: 0.002500
+Epoch: 018/020 | Batch 0000/0469 | Loss: 0.0176
+Epoch: 018/020 | Batch 0050/0469 | Loss: 0.0051
+Epoch: 018/020 | Batch 0100/0469 | Loss: 0.0218
+Epoch: 018/020 | Batch 0150/0469 | Loss: 0.0051
+Epoch: 018/020 | Batch 0200/0469 | Loss: 0.0282
+Epoch: 018/020 | Batch 0250/0469 | Loss: 0.0126
+Epoch: 018/020 | Batch 0300/0469 | Loss: 0.0147
+Epoch: 018/020 | Batch 0350/0469 | Loss: 0.0049
+Epoch: 018/020 | Batch 0400/0469 | Loss: 0.0324
+Epoch: 018/020 | Batch 0450/0469 | Loss: 0.0282
+**Epoch: 018/020 | Train. Acc.: 99.707% | Loss: 0.0099
+**Epoch: 018/020 | Test. Acc.: 99.680% | Loss: 0.0108
+**Test loss decreased (0.011592 --> 0.010787). Saving model ...
+Time elapsed: 23.71 min
+Epoch: 019/020 | Current Learning Rate: 0.002500
+Epoch: 019/020 | Batch 0000/0469 | Loss: 0.0020
+Epoch: 019/020 | Batch 0050/0469 | Loss: 0.0341
+Epoch: 019/020 | Batch 0100/0469 | Loss: 0.0139
+Epoch: 019/020 | Batch 0150/0469 | Loss: 0.0038
+Epoch: 019/020 | Batch 0200/0469 | Loss: 0.0212
+Epoch: 019/020 | Batch 0250/0469 | Loss: 0.0038
+Epoch: 019/020 | Batch 0300/0469 | Loss: 0.0255
+Epoch: 019/020 | Batch 0350/0469 | Loss: 0.0023
+Epoch: 019/020 | Batch 0400/0469 | Loss: 0.0594
+Epoch: 019/020 | Batch 0450/0469 | Loss: 0.0105
+**Epoch: 019/020 | Train. Acc.: 99.745% | Loss: 0.0091
+**Epoch: 019/020 | Test. Acc.: 99.670% | Loss: 0.0114
+Time elapsed: 25.03 min
+Epoch: 020/020 | Current Learning Rate: 0.002500
+Epoch: 020/020 | Batch 0000/0469 | Loss: 0.0052
+Epoch: 020/020 | Batch 0050/0469 | Loss: 0.0006
+Epoch: 020/020 | Batch 0100/0469 | Loss: 0.0183
+Epoch: 020/020 | Batch 0150/0469 | Loss: 0.0073
+Epoch: 020/020 | Batch 0200/0469 | Loss: 0.0210
+Epoch: 020/020 | Batch 0250/0469 | Loss: 0.0026
+Epoch: 020/020 | Batch 0300/0469 | Loss: 0.0410
+Epoch: 020/020 | Batch 0350/0469 | Loss: 0.0026
+Epoch: 020/020 | Batch 0400/0469 | Loss: 0.0402
+Epoch: 020/020 | Batch 0450/0469 | Loss: 0.0080
+**Epoch: 020/020 | Train. Acc.: 99.740% | Loss: 0.0092
+**Epoch: 020/020 | Test. Acc.: 99.690% | Loss: 0.0105
+**Test loss decreased (0.010787 --> 0.010465). Saving model ...
+Time elapsed: 26.35 min
+Total Training Time: 26.35 min

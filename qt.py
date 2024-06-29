@@ -4,7 +4,7 @@ from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QPushButton, QLa
 from PyQt5.QtGui import QImage, QPainter, QPen, QPixmap
 from PyQt5.QtCore import Qt, QPoint
 import torch
-from ResNet18 import ResNet, Block
+from model import ResNet, Block, ResNet_with_Smaller
 import torchvision.transforms as transforms
 import time
 from PyQt5.QtWidgets import QMessageBox
@@ -85,9 +85,8 @@ class MainWindow(QWidget):
 
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.device_label.setText(f"Device: {self.device}")
-        self.model = torch.load(
-            "model.pth"
-        )
+        self.model = ResNet_with_Smaller()
+        self.model.load_state_dict(torch.load("ResNet_with_Smaller_mnist.pt"))
 
         self.model.to(self.device)
 
@@ -108,10 +107,10 @@ class MainWindow(QWidget):
 
         tensor = torch.from_numpy(arr)
         tensor =  transforms.Resize((28,28))(tensor)
-        
+
         # * MUST NORMALIZE THE IMAGE AS THE TRAINING DATA WAS NORMALIZED
         tensor = transforms.Normalize((0.1307,), (0.3081,))(tensor)
-        
+
         with torch.no_grad():
 
             start_time = time.time()  
