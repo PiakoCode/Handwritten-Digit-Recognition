@@ -160,13 +160,13 @@ def train_all_resnet_models():
     resnet_models = {
         "ResNet18": (
             ResNet().to(device),
-            2,
+            20,
             0.01,
         ),
-        "ResNet18_With_Dropout": (ResNet_with_Dropout().to(device), 2, 0.01),
-        "ResNet_with_Smaller": (
+        "ResNet18_With_Dropout": (ResNet_with_Dropout().to(device), 20, 0.01),
+        "ResNet_with_Smaller_Conv": (
             ResNet_with_Smaller().to(device),
-            2,
+            20,
             0.01,
         ),
     }
